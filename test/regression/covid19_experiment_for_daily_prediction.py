@@ -1,13 +1,16 @@
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+print(sys.path)
+
 import numpy as np
 from datetime import datetime
 from sklearn.metrics import mean_absolute_error
 from src.util.dataframe import load_file, save_file
 from tensorflow.keras.optimizers import Nadam
 from test.regression.covid19_experiment import MLExperiment
-import sys
-import os
-
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 
 
 class Prediction(MLExperiment):
