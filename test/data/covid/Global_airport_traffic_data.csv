@@ -1,0 +1,921 @@
+Data,Number of Arriving Passengers,Country,Number of Departure Passengers,Total Number of Passengers,Regions
+202001,0,Guiana,0,0,Others
+202001,"3,560",Nepal,"3,834","7,394",Others
+202001,"1,304",Maldive,"1,153","2,457",Others
+202001,"1,698",Sri Lanka,"1,895","3,593",Others
+202001,"3,009",Ethiopia,"3,561","6,570",Others
+202001,"1,997",Egypt,"2,305","4,302",Others
+202001,"12,446",India,"11,992","24,438",Others
+202001,"56,001",Guam,"57,758","113,759",Oceania
+202001,"16,024",New Zealand,"19,762","35,786",Oceania
+202001,"31,587",Saipan,"31,089","62,676",Oceania
+202001,"3,087",Palau,"2,872","5,959",Oceania
+202001,"27,698",Hawaii,"31,075","58,773",Oceania
+202001,"32,021",Australia,"39,616","71,637",Oceania
+202001,"19,389",Laos,"19,039","38,428",Southeast Asia
+202001,"93,596",Malaysia,"97,462","191,058",Southeast Asia
+202001,"7,225",Myanmar,"7,840","15,065",Southeast Asia
+202001,"394,523",Vietnam,"414,419","808,942",Southeast Asia
+202001,"1,681",Brunei,"1,752","3,433",Southeast Asia
+202001,"61,252",Singapore,"69,455","130,707",Southeast Asia
+202001,"41,197",Indonesia,"43,594","84,791",Southeast Asia
+202001,"26,604",Cambodia,"27,869","54,473",Southeast Asia
+202001,"205,975",Thailand,"209,415","415,390",Southeast Asia
+202001,"221,019",Philippines,"225,255","446,274",Southeast Asia
+202001,"171,723",Taiwan,"159,315","331,038",Northeast Asia
+202001,"40,485",Macau,"36,717","77,202",Northeast Asia
+202001,"14,660",Mongolia,"15,072","29,732",Northeast Asia
+202001,"116,442",Hong Kong,"113,467","229,909",Northeast Asia
+202001,"4,542",Mexico,"5,693","10,235",Americas
+202001,"205,074",United States of America,"227,983","433,057",Americas
+202001,0,Brazil,0,0,Americas
+202001,0,Chile,0,0,Americas
+202001,"27,358",Canada,"28,852","56,210",Americas
+202001,0,Peru,0,0,Americas
+202001,"12,410",Netherlands,"12,409","24,819",Europe
+202001,0,Norway,0,0,Europe
+202001,"33,119",Germany,"39,123","72,242",Europe
+202001,"37,429",Russia,"45,046","82,475",Europe
+202001,0,Luxembourg,0,0,Europe
+202001,0,Belgium,0,0,Europe
+202001,0,Sweden,0,0,Europe
+202001,0,Swiss,0,0,Europe
+202001,"13,826",Spain,"13,909","27,735",Europe
+202001,0,Azerbaijan,0,0,Europe
+202001,"18,359",Great Britain,"20,924","39,283",Europe
+202001,"2,382",Austria,"2,431","4,813",Europe
+202001,"11,734",Uzbekistan,"13,217","24,951",Europe
+202001,"20,078",Italy,"20,565","40,643",Europe
+202001,"6,992",Czech,"7,400","14,392",Europe
+202001,"6,113",Kazakhstan,"7,607","13,720",Europe
+202001,"23,317",Turkey,"23,661","46,978",Europe
+202001,"2,525",Portugal,"2,621","5,146",Europe
+202001,"4,930",Poland,"5,494","10,424",Europe
+202001,"25,705",France,"27,591","53,296",Europe
+202001,"8,681",Finland,"9,257","17,938",Europe
+202001,"2,809",Hungary,"3,029","5,838",Europe
+202001,"373,485",Japan,"411,083","784,568",Japan
+202001,"601,930",China,"548,286","1,150,216",China
+202001,"29,963",Arab Emirates,"32,729","62,692",Middle East
+202001,0,Afghanistan,0,0,Middle East
+202001,"2,993",Israel,"3,537","6,530",Middle East
+202001,"9,142",Qatar,"10,592","19,734",Middle East
+202002,"3,158",Nepal,"3,763","6,921",Others
+202002,"1,121",Maldive,"1,148","2,269",Others
+202002,"1,294",Sri Lanka,"1,628","2,922",Others
+202002,"2,717",Ethiopia,"2,308","5,025",Others
+202002,"2,238",Egypt,"1,627","3,865",Others
+202002,"11,273",India,"9,206","20,479",Others
+202002,"35,046",Guam,"30,181","65,227",Oceania
+202002,"13,398",New Zealand,"14,335","27,733",Oceania
+202002,"20,027",Saipan,"17,209","37,236",Oceania
+202002,"2,151",Palau,"1,950","4,101",Oceania
+202002,"25,418",Hawaii,"22,279","47,697",Oceania
+202002,"22,313",Australia,"26,720","49,033",Oceania
+202002,"8,910",Laos,"6,139","15,049",Southeast Asia
+202002,"54,021",Malaysia,"45,082","99,103",Southeast Asia
+202002,"5,793",Myanmar,"4,486","10,279",Southeast Asia
+202002,"225,911",Vietnam,"162,563","388,474",Southeast Asia
+202002,"1,268",Brunei,"1,025","2,293",Southeast Asia
+202002,"30,254",Singapore,"27,922","58,176",Southeast Asia
+202002,"32,897",Indonesia,"31,395","64,292",Southeast Asia
+202002,"14,559",Cambodia,"11,311","25,870",Southeast Asia
+202002,"112,465",Thailand,"86,045","198,510",Southeast Asia
+202002,"168,589",Philippines,"138,335","306,924",Southeast Asia
+202002,"57,587",Taiwan,"68,740","126,327",Northeast Asia
+202002,"1,649",Macau,"3,057","4,706",Northeast Asia
+202002,"9,232",Mongolia,"10,711","19,943",Northeast Asia
+202002,"33,313",Hong Kong,"46,443","79,756",Northeast Asia
+202002,"4,430",Mexico,"4,788","9,218",Americas
+202002,"159,398",United States of America,"180,146","339,544",Americas
+202002,0,Brazil,0,0,Americas
+202002,0,Chile,0,0,Americas
+202002,"22,564",Canada,"28,005","50,569",Americas
+202002,0,Peru,0,0,Americas
+202002,"10,472",Netherlands,"9,674","20,146",Europe
+202002,0,Norway,0,0,Europe
+202002,"30,994",Germany,"25,173","56,167",Europe
+202002,"33,683",Russia,"35,329","69,012",Europe
+202002,0,Luxembourg,0,0,Europe
+202002,0,Belgium,0,0,Europe
+202002,0,Sweden,0,0,Europe
+202002,0,Swiss,0,0,Europe
+202002,"10,569",Spain,"7,644","18,213",Europe
+202002,0,Azerbaijan,0,0,Europe
+202002,"17,209",Great Britain,"15,327","32,536",Europe
+202002,"1,964",Austria,"1,835","3,799",Europe
+202002,"11,174",Uzbekistan,"10,144","21,318",Europe
+202002,"17,540",Italy,"12,767","30,307",Europe
+202002,"5,594",Czech,"4,559","10,153",Europe
+202002,"4,944",Kazakhstan,"5,548","10,492",Europe
+202002,"20,217",Turkey,"15,042","35,259",Europe
+202002,"1,750",Portugal,"1,468","3,218",Europe
+202002,"4,704",Poland,"4,104","8,808",Europe
+202002,"23,930",France,"19,972","43,902",Europe
+202002,"8,625",Finland,"6,501","15,126",Europe
+202002,"2,544",Hungary,"2,279","4,823",Europe
+202002,"290,769",Japan,"268,539","559,308",Japan
+202002,"132,477",China,"131,174","263,651",China
+202002,0,Saudi Arabia,0,0,Middle East
+202002,"25,138",Arab Emirates,"22,554","47,692",Middle East
+202002,"2,850",Israel,"2,823","5,673",Middle East
+202002,"9,808",Qatar,"7,242","17,050",Middle East
+202003,"1,615",Nepal,"1,590","3,205",Others
+202003,132,Maldive,0,132,Others
+202003,444,Sri Lanka,954,"1,398",Others
+202003,"1,571",Ethiopia,674,"2,245",Others
+202003,183,Egypt,0,183,Others
+202003,"1,071",India,784,"1,855",Others
+202003,"7,803",Guam,"4,859","12,662",Oceania
+202003,"1,742",New Zealand,803,"2,545",Oceania
+202003,"3,641",Saipan,"2,224","5,865",Oceania
+202003,"1,043",Palau,668,"1,711",Oceania
+202003,"6,872",Hawaii,"2,748","9,620",Oceania
+202003,"4,497",Australia,"2,380","6,877",Oceania
+202003,115,Laos,0,115,Southeast Asia
+202003,"6,496",Malaysia,"4,238","10,734",Southeast Asia
+202003,"1,363",Myanmar,"1,578","2,941",Southeast Asia
+202003,"14,253",Vietnam,"4,396","18,649",Southeast Asia
+202003,65,Brunei,59,124,Southeast Asia
+202003,"3,573",Singapore,"2,005","5,578",Southeast Asia
+202003,"12,663",Indonesia,"7,396","20,059",Southeast Asia
+202003,"5,640",Cambodia,"4,966","10,606",Southeast Asia
+202003,"28,526",Thailand,"15,090","43,616",Southeast Asia
+202003,"51,148",Philippines,"22,398","73,546",Southeast Asia
+202003,"4,212",Taiwan,"1,846","6,058",Northeast Asia
+202003,812,Mongolia,247,"1,059",Northeast Asia
+202003,418,Hong Kong,438,856,Northeast Asia
+202003,"1,574",Mexico,"1,196","2,770",Americas
+202003,"58,325",United States of America,"43,196","101,521",Americas
+202003,0,Brazil,0,0,Americas
+202003,0,Chile,0,0,Americas
+202003,"9,473",Canada,"11,121","20,594",Americas
+202003,0,Peru,0,0,Americas
+202003,"4,347",Netherlands,"2,051","6,398",Europe
+202003,0,Norway,0,0,Europe
+202003,"8,204",Germany,"3,886","12,090",Europe
+202003,"3,451",Russia,"8,832","12,283",Europe
+202003,0,Luxembourg,0,0,Europe
+202003,0,Belgium,0,0,Europe
+202003,0,Sweden,0,0,Europe
+202003,0,Swiss,0,0,Europe
+202003,"1,155",Spain,497,"1,652",Europe
+202003,0,Azerbaijan,0,0,Europe
+202003,"8,230",Great Britain,"2,833","11,063",Europe
+202003,424,Austria,164,588,Europe
+202003,678,Uzbekistan,821,"1,499",Europe
+202003,"1,902",Italy,370,"2,272",Europe
+202003,587,Czech,234,821,Europe
+202003,"1,540",Kazakhstan,"1,894","3,434",Europe
+202003,0,Kyrgyzstan,0,0,Europe
+202003,305,Turkey,110,415,Europe
+202003,326,Portugal,125,451,Europe
+202003,828,Poland,706,"1,534",Europe
+202003,"9,222",France,"2,759","11,981",Europe
+202003,"1,140",Finland,740,"1,880",Europe
+202003,136,Hungary,76,212,Europe
+202003,"29,462",Japan,"28,040","57,502",Japan
+202003,"18,412",China,"71,283","89,695",China
+202003,"6,935",Arab Emirates,"4,340","11,275",Middle East
+202003,"7,326",Qatar,"1,472","8,798",Middle East
+202004,175,Nepal,0,175,Others
+202004,0,Morocco,0,0,Others
+202004,272,Bangladesh,3,275,Others
+202004,386,Ethiopia,32,418,Others
+202004,"2,175",India,2,"2,177",Others
+202004,213,Guam,0,213,Oceania
+202004,"1,458",New Zealand,44,"1,502",Oceania
+202004,176,Saipan,1,177,Oceania
+202004,196,Hawaii,26,222,Oceania
+202004,"6,203",Australia,24,"6,227",Oceania
+202004,430,Laos,0,430,Southeast Asia
+202004,"2,615",Malaysia,131,"2,746",Southeast Asia
+202004,"1,380",Myanmar,97,"1,477",Southeast Asia
+202004,"16,542",Vietnam,"1,051","17,593",Southeast Asia
+202004,"1,418",Singapore,49,"1,467",Southeast Asia
+202004,"4,929",Indonesia,"1,600","6,529",Southeast Asia
+202004,"2,403",Cambodia,"1,586","3,989",Southeast Asia
+202004,"3,770",Thailand,"1,073","4,843",Southeast Asia
+202004,"8,758",Philippines,"3,401","12,159",Southeast Asia
+202004,483,Taiwan,588,"1,071",Northeast Asia
+202004,746,Mongolia,807,"1,553",Northeast Asia
+202004,463,Hong Kong,454,917,Northeast Asia
+202004,459,Mexico,122,581,Americas
+202004,"35,448",United States of America,"8,605","44,053",Americas
+202004,0,Brazil,0,0,Americas
+202004,0,Chile,0,0,Americas
+202004,"1,539",Canada,128,"1,667",Americas
+202004,0,Peru,0,0,Americas
+202004,"1,201",Netherlands,399,"1,600",Europe
+202004,0,Norway,0,0,Europe
+202004,"1,252",Germany,270,"1,522",Europe
+202004,700,Russia,331,"1,031",Europe
+202004,0,Luxembourg,0,0,Europe
+202004,0,Belgium,0,0,Europe
+202004,0,Sweden,0,0,Europe
+202004,0,Swiss,0,0,Europe
+202004,0,Spain,0,0,Europe
+202004,0,Azerbaijan,0,0,Europe
+202004,"3,502",Great Britain,561,"4,063",Europe
+202004,0,Austria,0,0,Europe
+202004,247,Uzbekistan,14,261,Europe
+202004,0,Ukraine,0,0,Europe
+202004,528,Italy,0,528,Europe
+202004,398,Czech,363,761,Europe
+202004,108,Kazakhstan,101,209,Europe
+202004,154,Kyrgyzstan,2,156,Europe
+202004,149,Turkey,157,306,Europe
+202004,788,Poland,489,"1,277",Europe
+202004,"1,428",France,161,"1,589",Europe
+202004,0,Finland,0,0,Europe
+202004,205,Hungary,480,685,Europe
+202004,"6,802",Japan,"1,850","8,652",Japan
+202004,"5,759",China,"6,982","12,741",China
+202004,481,Saudi Arabia,0,481,Middle East
+202004,966,Arab Emirates,100,"1,066",Middle East
+202004,88,Israel,0,88,Middle East
+202004,"3,250",Qatar,455,"3,705",Middle East
+202004,225,Kuwait,107,332,Middle East
+202005,59,Morocco,0,59,Others
+202005,386,Bangladesh,147,533,Others
+202005,7,Serbia,12,19,Others
+202005,0,Sri Lanka,0,0,Others
+202005,277,Ethiopia,154,431,Others
+202005,133,Egypt,39,172,Others
+202005,"1,518",India,497,"2,015",Others
+202005,152,Pakistan,132,284,Others
+202005,72,Guam,0,72,Oceania
+202005,271,New Zealand,88,359,Oceania
+202005,146,Saipan,6,152,Oceania
+202005,98,Palau,0,98,Oceania
+202005,0,Hawaii,0,0,Oceania
+202005,"2,455",Australia,159,"2,614",Oceania
+202005,302,Laos,86,388,Southeast Asia
+202005,"1,211",Malaysia,0,"1,211",Southeast Asia
+202005,810,Myanmar,519,"1,329",Southeast Asia
+202005,"10,055",Vietnam,"1,071","11,126",Southeast Asia
+202005,"1,018",Singapore,97,"1,115",Southeast Asia
+202005,"2,481",Indonesia,"1,193","3,674",Southeast Asia
+202005,"1,923",Cambodia,"1,503","3,426",Southeast Asia
+202005,"3,131",Thailand,"1,790","4,921",Southeast Asia
+202005,"9,158",Philippines,"1,254","10,412",Southeast Asia
+202005,578,Taiwan,554,"1,132",Northeast Asia
+202005,62,Macau,9,71,Northeast Asia
+202005,147,Mongolia,266,413,Northeast Asia
+202005,497,Hong Kong,673,"1,170",Northeast Asia
+202005,322,Mexico,124,446,Americas
+202005,"30,122",United States of America,"12,283","42,405",Americas
+202005,0,Brazil,0,0,Americas
+202005,0,Chile,0,0,Americas
+202005,"3,635",Canada,"1,375","5,010",Americas
+202005,0,Peru,0,0,Americas
+202005,"1,726",Netherlands,"1,255","2,981",Europe
+202005,0,Norway,0,0,Europe
+202005,"1,157",Germany,"1,017","2,174",Europe
+202005,609,Russia,9,618,Europe
+202005,0,Luxembourg,0,0,Europe
+202005,0,Belgium,0,0,Europe
+202005,0,Sweden,0,0,Europe
+202005,0,Swiss,0,0,Europe
+202005,0,Spain,0,0,Europe
+202005,0,Azerbaijan,0,0,Europe
+202005,"1,381",Great Britain,758,"2,139",Europe
+202005,55,Austria,0,55,Europe
+202005,43,Uzbekistan,127,170,Europe
+202005,0,Italy,0,0,Europe
+202005,11,Czech,113,124,Europe
+202005,0,Kazakhstan,0,0,Europe
+202005,175,Kyrgyzstan,59,234,Europe
+202005,245,Turkey,46,291,Europe
+202005,668,Poland,717,"1,385",Europe
+202005,912,France,620,"1,532",Europe
+202005,0,Finland,0,0,Europe
+202005,167,Hungary,332,499,Europe
+202005,"4,111",Japan,"2,686","6,797",Japan
+202005,"8,901",China,"10,661","19,562",China
+202005,0,Bahrain,0,0,Middle East
+202005,273,Saudi Arabia,40,313,Middle East
+202005,"1,120",Arab Emirates,35,"1,155",Middle East
+202005,"2,306",Qatar,532,"2,838",Middle East
+202006,704,Nepal,228,932,Others
+202006,0,Morocco,0,0,Others
+202006,252,Bangladesh,123,375,Others
+202006,299,Ethiopia,178,477,Others
+202006,"1,023",India,421,"1,444",Others
+202006,253,Guam,58,311,Oceania
+202006,531,New Zealand,95,626,Oceania
+202006,0,Saipan,0,0,Oceania
+202006,0,Hawaii,0,0,Oceania
+202006,"1,309",Australia,186,"1,495",Oceania
+202006,"1,204",Malaysia,256,"1,460",Southeast Asia
+202006,"1,248",Myanmar,"1,037","2,285",Southeast Asia
+202006,"10,204",Vietnam,"1,582","11,786",Southeast Asia
+202006,"1,314",Singapore,211,"1,525",Southeast Asia
+202006,"2,330",Indonesia,"1,959","4,289",Southeast Asia
+202006,"2,697",Cambodia,"2,407","5,104",Southeast Asia
+202006,"2,924",Thailand,"2,958","5,882",Southeast Asia
+202006,"12,860",Philippines,"2,368","15,228",Southeast Asia
+202006,"1,126",Taiwan,"1,038","2,164",Northeast Asia
+202006,28,Macau,1,29,Northeast Asia
+202006,258,Mongolia,790,"1,048",Northeast Asia
+202006,966,Hong Kong,"1,075","2,041",Northeast Asia
+202006,876,Mexico,453,"1,329",Americas
+202006,"30,411",United States of America,"21,831","52,242",Americas
+202006,0,Brazil,0,0,Americas
+202006,0,Chile,0,0,Americas
+202006,"7,265",Canada,"4,586","11,851",Americas
+202006,0,Peru,0,0,Americas
+202006,"2,914",Netherlands,"2,811","5,725",Europe
+202006,0,Norway,0,0,Europe
+202006,"2,500",Germany,"1,950","4,450",Europe
+202006,548,Russia,659,"1,207",Europe
+202006,0,Luxembourg,0,0,Europe
+202006,0,Belgium,0,0,Europe
+202006,0,Sweden,0,0,Europe
+202006,0,Swiss,0,0,Europe
+202006,0,Spain,0,0,Europe
+202006,0,Slovakia,182,182,Europe
+202006,0,Azerbaijan,0,0,Europe
+202006,"1,500",Great Britain,631,"2,131",Europe
+202006,0,Austria,0,0,Europe
+202006,469,Uzbekistan,725,"1,194",Europe
+202006,73,Italy,31,104,Europe
+202006,254,Czech,285,539,Europe
+202006,681,Kazakhstan,807,"1,488",Europe
+202006,134,Kyrgyzstan,50,184,Europe
+202006,392,Turkey,231,623,Europe
+202006,660,Poland,601,"1,261",Europe
+202006,963,France,889,"1,852",Europe
+202006,0,Finland,0,0,Europe
+202006,0,Hungary,0,0,Europe
+202006,"3,649",Japan,"5,307","8,956",Japan
+202006,"9,994",China,"11,866","21,860",China
+202006,0,Bahrain,0,0,Middle East
+202006,"1,235",Arab Emirates,292,"1,527",Middle East
+202006,0,Israel,0,0,Middle East
+202006,"3,150",Qatar,"2,167","5,317",Middle East
+202007,455,Nepal,496,951,Others
+202007,108,Bangladesh,77,185,Others
+202007,26,Sri Lanka,257,283,Others
+202007,417,Ethiopia,298,715,Others
+202007,642,India,436,"1,078",Others
+202007,177,Guam,424,601,Oceania
+202007,278,New Zealand,101,379,Oceania
+202007,195,Saipan,216,411,Oceania
+202007,0,Hawaii,0,0,Oceania
+202007,"1,367",Australia,113,"1,480",Oceania
+202007,423,Laos,322,745,Southeast Asia
+202007,"1,183",Malaysia,643,"1,826",Southeast Asia
+202007,"1,737",Myanmar,608,"2,345",Southeast Asia
+202007,"6,649",Vietnam,"2,838","9,487",Southeast Asia
+202007,"1,812",Singapore,"1,180","2,992",Southeast Asia
+202007,"2,506",Indonesia,"3,289","5,795",Southeast Asia
+202007,"2,956",Cambodia,"3,177","6,133",Southeast Asia
+202007,"2,339",Thailand,"3,043","5,382",Southeast Asia
+202007,"11,324",Philippines,"3,508","14,832",Southeast Asia
+202007,"1,608",Taiwan,"1,293","2,901",Northeast Asia
+202007,53,Macau,6,59,Northeast Asia
+202007,204,Mongolia,"1,991","2,195",Northeast Asia
+202007,"1,451",Hong Kong,"1,176","2,627",Northeast Asia
+202007,794,Mexico,562,"1,356",Americas
+202007,"34,860",United States of America,"25,194","60,054",Americas
+202007,0,Brazil,0,0,Americas
+202007,0,Chile,0,0,Americas
+202007,"4,009",Canada,"4,284","8,293",Americas
+202007,0,Peru,0,0,Americas
+202007,"2,620",Netherlands,"2,970","5,590",Europe
+202007,0,Norway,0,0,Europe
+202007,"2,856",Germany,"2,781","5,637",Europe
+202007,487,Russia,596,"1,083",Europe
+202007,0,Luxembourg,0,0,Europe
+202007,0,Belgium,0,0,Europe
+202007,0,Sweden,0,0,Europe
+202007,0,Swiss,0,0,Europe
+202007,0,Spain,0,0,Europe
+202007,0,Ireland,0,0,Europe
+202007,0,Azerbaijan,0,0,Europe
+202007,"1,831",Great Britain,"1,056","2,887",Europe
+202007,255,Austria,109,364,Europe
+202007,"1,349",Uzbekistan,"1,688","3,037",Europe
+202007,0,Italy,0,0,Europe
+202007,50,Czech,77,127,Europe
+202007,701,Kazakhstan,"1,032","1,733",Europe
+202007,108,Kyrgyzstan,52,160,Europe
+202007,60,Tajikistan,126,186,Europe
+202007,786,Turkey,890,"1,676",Europe
+202007,"1,546",Poland,"1,833","3,379",Europe
+202007,"1,537",France,"2,583","4,120",Europe
+202007,425,Finland,665,"1,090",Europe
+202007,167,Hungary,198,365,Europe
+202007,"4,435",Japan,"5,145","9,580",Japan
+202007,"13,715",China,"18,938","32,653",China
+202007,0,Bahrain,0,0,Middle East
+202007,127,Saudi Arabia,1,128,Middle East
+202007,"2,697",Arab Emirates,"2,023","4,720",Middle East
+202007,"3,503",Qatar,"3,790","7,293",Middle East
+202008,0,Nepal,247,247,Others
+202008,67,Bangladesh,90,157,Others
+202008,41,Sri Lanka,273,314,Others
+202008,700,Ethiopia,262,962,Others
+202008,790,India,448,"1,238",Others
+202008,241,Guam,215,456,Oceania
+202008,573,New Zealand,237,810,Oceania
+202008,104,Saipan,149,253,Oceania
+202008,0,Hawaii,0,0,Oceania
+202008,"1,294",Australia,90,"1,384",Oceania
+202008,419,Laos,302,721,Southeast Asia
+202008,949,Malaysia,675,"1,624",Southeast Asia
+202008,"1,967",Myanmar,918,"2,885",Southeast Asia
+202008,"5,948",Vietnam,"4,182","10,130",Southeast Asia
+202008,"1,282",Singapore,"1,289","2,571",Southeast Asia
+202008,"2,199",Indonesia,"2,943","5,142",Southeast Asia
+202008,"3,203",Cambodia,"2,954","6,157",Southeast Asia
+202008,"1,585",Thailand,"3,416","5,001",Southeast Asia
+202008,"4,245",Philippines,"5,119","9,364",Southeast Asia
+202008,"1,668",Taiwan,"1,294","2,962",Northeast Asia
+202008,329,Macau,11,340,Northeast Asia
+202008,662,Mongolia,"1,169","1,831",Northeast Asia
+202008,"1,325",Hong Kong,874,"2,199",Northeast Asia
+202008,707,Mexico,841,"1,548",Americas
+202008,"34,198",United States of America,"34,014","68,212",Americas
+202008,0,Brazil,0,0,Americas
+202008,0,Chile,0,0,Americas
+202008,"3,585",Canada,"6,524","10,109",Americas
+202008,0,Peru,0,0,Americas
+202008,"3,214",Netherlands,"3,114","6,328",Europe
+202008,0,Norway,0,0,Europe
+202008,"2,622",Germany,"3,423","6,045",Europe
+202008,489,Russia,735,"1,224",Europe
+202008,0,Luxembourg,0,0,Europe
+202008,0,Belgium,0,0,Europe
+202008,0,Sweden,0,0,Europe
+202008,0,Swiss,0,0,Europe
+202008,0,Spain,0,0,Europe
+202008,0,Ireland,0,0,Europe
+202008,0,Azerbaijan,0,0,Europe
+202008,"1,566",Great Britain,"1,875","3,441",Europe
+202008,0,Austria,0,0,Europe
+202008,315,Uzbekistan,"1,562","1,877",Europe
+202008,34,Italy,164,198,Europe
+202008,73,Czech,353,426,Europe
+202008,579,Kazakhstan,"1,003","1,582",Europe
+202008,"2,019",Turkey,"1,619","3,638",Europe
+202008,"1,740",Poland,"1,832","3,572",Europe
+202008,"2,513",France,"3,228","5,741",Europe
+202008,"1,084",Finland,954,"2,038",Europe
+202008,396,Hungary,858,"1,254",Europe
+202008,"5,022",Japan,"3,979","9,001",Japan
+202008,"17,911",China,"21,445","39,356",China
+202008,84,Lebanon,200,284,Middle East
+202008,0,Bahrain,0,0,Middle East
+202008,"2,511",Arab Emirates,"3,517","6,028",Middle East
+202008,"3,063",Qatar,"2,746","5,809",Middle East
+202009,4,Nepal,480,484,Others
+202009,60,Bangladesh,110,170,Others
+202009,31,Sri Lanka,241,272,Others
+202009,603,Ethiopia,531,"1,134",Others
+202009,587,India,662,"1,249",Others
+202009,160,Guam,177,337,Oceania
+202009,453,New Zealand,145,598,Oceania
+202009,268,Saipan,64,332,Oceania
+202009,0,Hawaii,0,0,Oceania
+202009,715,Australia,116,831,Oceania
+202009,152,Laos,158,310,Southeast Asia
+202009,910,Malaysia,706,"1,616",Southeast Asia
+202009,"2,222",Myanmar,"1,198","3,420",Southeast Asia
+202009,"4,574",Vietnam,"4,451","9,025",Southeast Asia
+202009,"1,016",Singapore,940,"1,956",Southeast Asia
+202009,"2,383",Indonesia,"2,272","4,655",Southeast Asia
+202009,"2,455",Cambodia,"2,878","5,333",Southeast Asia
+202009,"1,495",Thailand,"2,660","4,155",Southeast Asia
+202009,"5,447",Philippines,"4,335","9,782",Southeast Asia
+202009,"1,044",Taiwan,"1,061","2,105",Northeast Asia
+202009,479,Macau,46,525,Northeast Asia
+202009,300,Mongolia,"1,544","1,844",Northeast Asia
+202009,"1,010",Hong Kong,895,"1,905",Northeast Asia
+202009,446,Mexico,563,"1,009",Americas
+202009,"24,655",United States of America,"21,441","46,096",Americas
+202009,0,Brazil,0,0,Americas
+202009,0,Chile,0,0,Americas
+202009,"3,154",Canada,"3,140","6,294",Americas
+202009,0,Peru,0,0,Americas
+202009,"2,572",Netherlands,"2,072","4,644",Europe
+202009,0,Norway,0,0,Europe
+202009,"1,572",Germany,"2,323","3,895",Europe
+202009,293,Russia,666,959,Europe
+202009,0,Luxembourg,0,0,Europe
+202009,0,Belgium,0,0,Europe
+202009,0,Sweden,0,0,Europe
+202009,0,Swiss,0,0,Europe
+202009,0,Spain,0,0,Europe
+202009,0,Azerbaijan,0,0,Europe
+202009,"1,409",Great Britain,"2,502","3,911",Europe
+202009,0,Austria,0,0,Europe
+202009,228,Uzbekistan,"1,301","1,529",Europe
+202009,0,Italy,0,0,Europe
+202009,60,Czech,124,184,Europe
+202009,468,Kazakhstan,870,"1,338",Europe
+202009,69,Kyrgyzstan,278,347,Europe
+202009,"1,918",Turkey,"1,596","3,514",Europe
+202009,0,Turkmenistan,0,0,Europe
+202009,"1,379",Poland,"1,463","2,842",Europe
+202009,"1,614",France,"2,254","3,868",Europe
+202009,405,Finland,566,971,Europe
+202009,466,Hungary,302,768,Europe
+202009,"4,731",Japan,"4,378","9,109",Japan
+202009,"17,646",China,"25,054","42,700",China
+202009,192,Lebanon,63,255,Middle East
+202009,0,Bahrain,0,0,Middle East
+202009,"2,640",Arab Emirates,"3,264","5,904",Middle East
+202009,"2,279",Qatar,"2,410","4,689",Middle East
+202010,0,Others,0,0,Others
+202010,0,Nepal,364,364,Others
+202010,132,Bangladesh,195,327,Others
+202010,54,Sri Lanka,276,330,Others
+202010,675,Ethiopia,587,"1,262",Others
+202010,404,India,143,547,Others
+202010,192,Guam,141,333,Oceania
+202010,222,New Zealand,145,367,Oceania
+202010,356,Saipan,0,356,Oceania
+202010,0,Hawaii,0,0,Oceania
+202010,695,Australia,217,912,Oceania
+202010,387,Laos,307,694,Southeast Asia
+202010,807,Malaysia,551,"1,358",Southeast Asia
+202010,"2,583",Myanmar,"1,921","4,504",Southeast Asia
+202010,"4,632",Vietnam,"4,576","9,208",Southeast Asia
+202010,"1,457",Singapore,"1,108","2,565",Southeast Asia
+202010,"2,480",Indonesia,"2,910","5,390",Southeast Asia
+202010,"3,504",Cambodia,"3,212","6,716",Southeast Asia
+202010,969,Thailand,"2,578","3,547",Southeast Asia
+202010,"4,599",Philippines,"5,143","9,742",Southeast Asia
+202010,903,Taiwan,937,"1,840",Northeast Asia
+202010,191,Mongolia,"1,818","2,009",Northeast Asia
+202010,735,Hong Kong,773,"1,508",Northeast Asia
+202010,577,Mexico,609,"1,186",Americas
+202010,"25,129",United States of America,"18,453","43,582",Americas
+202010,0,Brazil,0,0,Americas
+202010,0,Chile,0,0,Americas
+202010,"2,980",Canada,"1,988","4,968",Americas
+202010,0,Peru,0,0,Americas
+202010,"2,282",Netherlands,"1,727","4,009",Europe
+202010,0,Norway,0,0,Europe
+202010,"1,657",Germany,"1,909","3,566",Europe
+202010,668,Russia,"1,460","2,128",Europe
+202010,0,Luxembourg,0,0,Europe
+202010,0,Belgium,0,0,Europe
+202010,0,Sweden,0,0,Europe
+202010,0,Swiss,0,0,Europe
+202010,0,Spain,0,0,Europe
+202010,0,Slovakia,0,0,Europe
+202010,0,Azerbaijan,0,0,Europe
+202010,"1,032",Great Britain,"1,417","2,449",Europe
+202010,0,Austria,0,0,Europe
+202010,337,Uzbekistan,"1,574","1,911",Europe
+202010,0,Italy,0,0,Europe
+202010,70,Czech,69,139,Europe
+202010,395,Kazakhstan,713,"1,108",Europe
+202010,"1,375",Turkey,"1,036","2,411",Europe
+202010,"1,492",Poland,"1,335","2,827",Europe
+202010,"1,752",France,"1,466","3,218",Europe
+202010,389,Finland,463,852,Europe
+202010,340,Hungary,405,745,Europe
+202010,"4,777",Japan,"6,914","11,691",Japan
+202010,"15,290",China,"27,243","42,533",China
+202010,0,Bahrain,0,0,Middle East
+202010,0,Saudi Arabia,0,0,Middle East
+202010,"3,324",Arab Emirates,"4,491","7,815",Middle East
+202010,"1,938",Qatar,"2,333","4,271",Middle East
+202011,0,Nepal,253,253,Others
+202011,55,Bangladesh,67,122,Others
+202011,0,Sri Lanka,275,275,Others
+202011,674,Ethiopia,596,"1,270",Others
+202011,551,India,849,"1,400",Others
+202011,209,Guam,157,366,Oceania
+202011,279,New Zealand,150,429,Oceania
+202011,0,Saipan,0,0,Oceania
+202011,62,Hawaii,37,99,Oceania
+202011,788,Australia,171,959,Oceania
+202011,302,Laos,296,598,Southeast Asia
+202011,691,Malaysia,461,"1,152",Southeast Asia
+202011,"2,229",Myanmar,"2,388","4,617",Southeast Asia
+202011,"7,191",Vietnam,"5,618","12,809",Southeast Asia
+202011,"1,465",Singapore,"1,497","2,962",Southeast Asia
+202011,"2,745",Indonesia,"3,296","6,041",Southeast Asia
+202011,"2,959",Cambodia,"2,891","5,850",Southeast Asia
+202011,881,Thailand,"2,896","3,777",Southeast Asia
+202011,"3,216",Philippines,"4,730","7,946",Southeast Asia
+202011,942,Taiwan,"1,131","2,073",Northeast Asia
+202011,271,Mongolia,169,440,Northeast Asia
+202011,861,Hong Kong,725,"1,586",Northeast Asia
+202011,732,Mexico,787,"1,519",Americas
+202011,"25,274",United States of America,"18,541","43,815",Americas
+202011,0,Brazil,0,0,Americas
+202011,0,Chile,0,0,Americas
+202011,"2,837",Canada,"2,099","4,936",Americas
+202011,0,Peru,0,0,Americas
+202011,0,Greece,0,0,Europe
+202011,"2,403",Netherlands,"1,494","3,897",Europe
+202011,0,Norway,0,0,Europe
+202011,"1,779",Germany,"1,330","3,109",Europe
+202011,631,Russia,"1,330","1,961",Europe
+202011,0,Luxembourg,0,0,Europe
+202011,0,Belgium,0,0,Europe
+202011,0,Sweden,0,0,Europe
+202011,0,Swiss,0,0,Europe
+202011,0,Spain,0,0,Europe
+202011,0,Azerbaijan,0,0,Europe
+202011,"1,093",Great Britain,641,"1,734",Europe
+202011,17,Austria,2,19,Europe
+202011,245,Uzbekistan,"1,793","2,038",Europe
+202011,0,Italy,0,0,Europe
+202011,521,Kazakhstan,904,"1,425",Europe
+202011,"1,406",Turkey,"1,096","2,502",Europe
+202011,"1,220",Poland,"1,052","2,272",Europe
+202011,"1,423",France,723,"2,146",Europe
+202011,395,Finland,337,732,Europe
+202011,464,Hungary,455,919,Europe
+202011,"5,935",Japan,"12,313","18,248",Japan
+202011,"14,301",China,"22,717","37,018",China
+202011,"3,371",Arab Emirates,"4,497","7,868",Middle East
+202011,0,Israel,0,0,Middle East
+202011,"2,027",Qatar,"2,158","4,185",Middle East
+202012,"1,075",Others,"1,075","2,150",Others
+202012,0,Nepal,206,206,Others
+202012,62,Bangladesh,112,174,Others
+202012,75,Sri Lanka,280,355,Others
+202012,683,Ethiopia,793,"1,476",Others
+202012,661,India,711,"1,372",Others
+202012,274,Guam,234,508,Oceania
+202012,479,New Zealand,183,662,Oceania
+202012,54,Saipan,52,106,Oceania
+202012,204,Hawaii,209,413,Oceania
+202012,787,Australia,187,974,Oceania
+202012,271,Laos,123,394,Southeast Asia
+202012,637,Malaysia,568,"1,205",Southeast Asia
+202012,"2,855",Myanmar,"2,243","5,098",Southeast Asia
+202012,"10,233",Vietnam,"5,566","15,799",Southeast Asia
+202012,"1,511",Singapore,"2,188","3,699",Southeast Asia
+202012,"3,426",Indonesia,"3,950","7,376",Southeast Asia
+202012,"2,709",Cambodia,"2,357","5,066",Southeast Asia
+202012,994,Thailand,"3,272","4,266",Southeast Asia
+202012,"3,530",Philippines,"6,644","10,174",Southeast Asia
+202012,859,Taiwan,946,"1,805",Northeast Asia
+202012,259,Mongolia,34,293,Northeast Asia
+202012,"1,011",Hong Kong,737,"1,748",Northeast Asia
+202012,730,Mexico,935,"1,665",Americas
+202012,"24,975",United States of America,"24,560","49,535",Americas
+202012,0,Brazil,0,0,Americas
+202012,0,Chile,0,0,Americas
+202012,"3,713",Canada,"3,351","7,064",Americas
+202012,0,Peru,0,0,Americas
+202012,"2,263",Netherlands,"2,064","4,327",Europe
+202012,0,Norway,0,0,Europe
+202012,"2,258",Germany,"1,811","4,069",Europe
+202012,"1,125",Russia,"1,702","2,827",Europe
+202012,0,Luxembourg,0,0,Europe
+202012,0,Belgium,0,0,Europe
+202012,0,Sweden,0,0,Europe
+202012,0,Swiss,0,0,Europe
+202012,0,Spain,0,0,Europe
+202012,0,Azerbaijan,0,0,Europe
+202012,"1,365",Great Britain,922,"2,287",Europe
+202012,69,Austria,201,270,Europe
+202012,444,Uzbekistan,"1,373","1,817",Europe
+202012,34,Italy,0,34,Europe
+202012,710,Kazakhstan,"1,001","1,711",Europe
+202012,"1,208",Turkey,"1,292","2,500",Europe
+202012,"1,328",Poland,"1,559","2,887",Europe
+202012,"1,299",France,"1,486","2,785",Europe
+202012,358,Finland,471,829,Europe
+202012,642,Hungary,418,"1,060",Europe
+202012,"7,543",Japan,"16,674","24,217",Japan
+202012,"12,698",China,"25,961","38,659",China
+202012,0,Bahrain,0,0,Middle East
+202012,"3,721",Arab Emirates,"5,557","9,278",Middle East
+202012,0,Afghanistan,0,0,Middle East
+202012,0,Israel,0,0,Middle East
+202012,"2,401",Qatar,"2,481","4,882",Middle East
+202101,"1,658",Others,"1,658","3,316",Others
+202101,0,Nepal,265,265,Others
+202101,108,Bangladesh,80,188,Others
+202101,37,Sri Lanka,387,424,Others
+202101,636,Ethiopia,929,"1,565",Others
+202101,742,India,728,"1,470",Others
+202101,174,Guam,317,491,Oceania
+202101,383,New Zealand,212,595,Oceania
+202101,32,Saipan,64,96,Oceania
+202101,193,Hawaii,310,503,Oceania
+202101,697,Australia,159,856,Oceania
+202101,660,Malaysia,553,"1,213",Southeast Asia
+202101,"2,628",Myanmar,"2,075","4,703",Southeast Asia
+202101,"9,666",Vietnam,"4,177","13,843",Southeast Asia
+202101,"1,425",Singapore,"2,248","3,673",Southeast Asia
+202101,"2,558",Indonesia,"2,319","4,877",Southeast Asia
+202101,"2,316",Cambodia,"3,343","5,659",Southeast Asia
+202101,"1,278",Thailand,"3,208","4,486",Southeast Asia
+202101,"4,364",Philippines,"2,524","6,888",Southeast Asia
+202101,906,Taiwan,989,"1,895",Northeast Asia
+202101,430,Mongolia,530,960,Northeast Asia
+202101,823,Hong Kong,801,"1,624",Northeast Asia
+202101,779,Mexico,986,"1,765",Americas
+202101,"21,349",United States of America,"30,879","52,228",Americas
+202101,0,Brazil,0,0,Americas
+202101,0,Chile,0,0,Americas
+202101,"2,638",Canada,"3,458","6,096",Americas
+202101,0,Peru,0,0,Americas
+202101,"1,607",Netherlands,"1,620","3,227",Europe
+202101,0,Norway,0,0,Europe
+202101,"1,989",Germany,"2,250","4,239",Europe
+202101,"1,154",Russia,"1,759","2,913",Europe
+202101,0,Romania,0,0,Europe
+202101,0,Luxembourg,0,0,Europe
+202101,0,Belgium,0,0,Europe
+202101,0,Sweden,0,0,Europe
+202101,0,Swiss,0,0,Europe
+202101,0,Spain,0,0,Europe
+202101,0,Azerbaijan,0,0,Europe
+202101,0,Great Britain,739,739,Europe
+202101,0,Austria,0,0,Europe
+202101,621,Uzbekistan,"1,032","1,653",Europe
+202101,0,Ukraine,0,0,Europe
+202101,0,Italy,0,0,Europe
+202101,885,Kazakhstan,839,"1,724",Europe
+202101,"1,606",Turkey,"1,577","3,183",Europe
+202101,"1,291",Poland,984,"2,275",Europe
+202101,"1,680",France,"1,430","3,110",Europe
+202101,345,Finland,400,745,Europe
+202101,595,Hungary,857,"1,452",Europe
+202101,"6,504",Japan,"12,174","18,678",Japan
+202101,"11,734",China,"21,552","33,286",China
+202101,0,Bahrain,0,0,Middle East
+202101,"4,516",Arab Emirates,"4,887","9,403",Middle East
+202101,0,Israel,0,0,Middle East
+202101,"2,341",Qatar,"2,215","4,556",Middle East
+202102,"2,526",Others,"2,526","5,052",Others
+202102,0,Nepal,258,258,Others
+202102,86,Bangladesh,169,255,Others
+202102,71,Sri Lanka,270,341,Others
+202102,729,Ethiopia,530,"1,259",Others
+202102,443,India,512,955,Others
+202102,253,Guam,188,441,Oceania
+202102,280,New Zealand,253,533,Oceania
+202102,268,Hawaii,337,605,Oceania
+202102,540,Australia,168,708,Oceania
+202102,210,Laos,0,210,Southeast Asia
+202102,585,Malaysia,542,"1,127",Southeast Asia
+202102,865,Myanmar,"1,560","2,425",Southeast Asia
+202102,"4,476",Vietnam,"3,335","7,811",Southeast Asia
+202102,"1,370",Singapore,"1,703","3,073",Southeast Asia
+202102,"2,388",Indonesia,"2,775","5,163",Southeast Asia
+202102,"1,779",Cambodia,"2,678","4,457",Southeast Asia
+202102,"1,242",Thailand,"2,681","3,923",Southeast Asia
+202102,"3,736",Philippines,"4,272","8,008",Southeast Asia
+202102,902,Taiwan,550,"1,452",Northeast Asia
+202102,504,Mongolia,667,"1,171",Northeast Asia
+202102,703,Hong Kong,509,"1,212",Northeast Asia
+202102,701,Mexico,691,"1,392",Americas
+202102,"18,473",United States of America,"16,983","35,456",Americas
+202102,0,Brazil,0,0,Americas
+202102,0,Chile,0,0,Americas
+202102,"2,207",Canada,"3,092","5,299",Americas
+202102,0,Peru,0,0,Americas
+202102,"1,370",Netherlands,979,"2,349",Europe
+202102,0,Norway,0,0,Europe
+202102,"2,906",Germany,"1,652","4,558",Europe
+202102,"1,282",Russia,"1,351","2,633",Europe
+202102,0,Luxembourg,0,0,Europe
+202102,0,Belgium,0,0,Europe
+202102,0,Sweden,0,0,Europe
+202102,0,Swiss,0,0,Europe
+202102,0,Spain,0,0,Europe
+202102,0,Azerbaijan,0,0,Europe
+202102,2,Great Britain,489,491,Europe
+202102,0,Austria,0,0,Europe
+202102,881,Uzbekistan,"1,218","2,099",Europe
+202102,0,Italy,0,0,Europe
+202102,"1,116",Kazakhstan,779,"1,895",Europe
+202102,"1,393",Turkey,"1,002","2,395",Europe
+202102,898,Poland,"1,105","2,003",Europe
+202102,"1,800",France,922,"2,722",Europe
+202102,537,Finland,209,746,Europe
+202102,556,Hungary,627,"1,183",Europe
+202102,"6,684",Japan,"3,600","10,284",Japan
+202102,"12,711",China,"13,270","25,981",China
+202102,0,Bahrain,0,0,Middle East
+202102,"4,655",Arab Emirates,"3,809","8,464",Middle East
+202102,0,Israel,0,0,Middle East
+202102,"3,046",Qatar,"1,907","4,953",Middle East
+202103,"2,765",Others,"2,765","5,530",Others
+202103,0,Nepal,260,260,Others
+202103,67,Bangladesh,153,220,Others
+202103,165,Sri Lanka,384,549,Others
+202103,714,Ethiopia,598,"1,312",Others
+202103,389,India,466,855,Others
+202103,279,Guam,258,537,Oceania
+202103,376,New Zealand,200,576,Oceania
+202103,44,Saipan,47,91,Oceania
+202103,326,Hawaii,357,683,Oceania
+202103,447,Australia,194,641,Oceania
+202103,130,Laos,150,280,Southeast Asia
+202103,547,Malaysia,461,"1,008",Southeast Asia
+202103,937,Myanmar,"1,480","2,417",Southeast Asia
+202103,"4,692",Vietnam,"6,163","10,855",Southeast Asia
+202103,"1,713",Singapore,"2,094","3,807",Southeast Asia
+202103,"2,316",Indonesia,"2,954","5,270",Southeast Asia
+202103,"2,111",Cambodia,"2,785","4,896",Southeast Asia
+202103,"1,376",Thailand,"2,888","4,264",Southeast Asia
+202103,"3,930",Philippines,"4,526","8,456",Southeast Asia
+202103,820,Taiwan,659,"1,479",Northeast Asia
+202103,588,Mongolia,"1,207","1,795",Northeast Asia
+202103,656,Hong Kong,492,"1,148",Northeast Asia
+202103,632,Mexico,798,"1,430",Americas
+202103,"17,010",United States of America,"19,648","36,658",Americas
+202103,0,Brazil,0,0,Americas
+202103,0,Chile,0,0,Americas
+202103,"1,999",Canada,"1,659","3,658",Americas
+202103,0,Peru,0,0,Americas
+202103,0,Greece,0,0,Europe
+202103,"1,110",Netherlands,"1,130","2,240",Europe
+202103,0,Norway,0,0,Europe
+202103,"1,986",Germany,"1,975","3,961",Europe
+202103,"1,209",Russia,"1,556","2,765",Europe
+202103,0,Luxembourg,0,0,Europe
+202103,0,Belgium,0,0,Europe
+202103,0,Sweden,0,0,Europe
+202103,0,Swiss,0,0,Europe
+202103,0,Spain,0,0,Europe
+202103,0,Slovakia,0,0,Europe
+202103,0,Azerbaijan,0,0,Europe
+202103,0,Great Britain,504,504,Europe
+202103,0,Austria,0,0,Europe
+202103,"1,252",Uzbekistan,"1,719","2,971",Europe
+202103,0,Ukraine,0,0,Europe
+202103,0,Italy,0,0,Europe
+202103,"1,099",Kazakhstan,"1,307","2,406",Europe
+202103,"1,172",Turkey,"1,036","2,208",Europe
+202103,932,Poland,986,"1,918",Europe
+202103,"1,168",France,952,"2,120",Europe
+202103,271,Finland,231,502,Europe
+202103,583,Hungary,637,"1,220",Europe
+202103,"5,484",Japan,"5,415","10,899",Japan
+202103,"20,598",China,"16,053","36,651",China
+202103,0,Bahrain,0,0,Middle East
+202103,"4,741",Arab Emirates,"4,923","9,664",Middle East
+202103,0,Israel,0,0,Middle East
+202103,"2,572",Qatar,"2,239","4,811",Middle East
+202104,"2,447",Others,"2,447","4,894",Others
+202104,0,Nepal,508,508,Others
+202104,103,Bangladesh,105,208,Others
+202104,132,Sri Lanka,431,563,Others
+202104,518,Ethiopia,497,"1,015",Others
+202104,510,India,509,"1,019",Others
+202104,232,Guam,168,400,Oceania
+202104,174,New Zealand,164,338,Oceania
+202104,48,Saipan,8,56,Oceania
+202104,491,Hawaii,515,"1,006",Oceania
+202104,377,Australia,182,559,Oceania
+202104,202,Laos,284,486,Southeast Asia
+202104,551,Malaysia,463,"1,014",Southeast Asia
+202104,902,Myanmar,"1,283","2,185",Southeast Asia
+202104,"4,484",Vietnam,"7,885","12,369",Southeast Asia
+202104,"1,844",Singapore,"1,783","3,627",Southeast Asia
+202104,"2,882",Indonesia,"3,857","6,739",Southeast Asia
+202104,"2,020",Cambodia,"1,528","3,548",Southeast Asia
+202104,"1,820",Thailand,"2,801","4,621",Southeast Asia
+202104,"3,914",Philippines,"2,576","6,490",Southeast Asia
+202104,759,Taiwan,746,"1,505",Northeast Asia
+202104,447,Mongolia,"1,020","1,467",Northeast Asia
+202104,578,Hong Kong,516,"1,094",Northeast Asia
+202104,715,Mexico,801,"1,516",Americas
+202104,"18,693",United States of America,"19,083","37,776",Americas
+202104,0,Brazil,0,0,Americas
+202104,0,Chile,0,0,Americas
+202104,"2,055",Canada,"2,047","4,102",Americas
+202104,0,Peru,0,0,Americas
+202104,"1,055",Netherlands,"1,141","2,196",Europe
+202104,0,Norway,0,0,Europe
+202104,"1,943",Germany,"1,961","3,904",Europe
+202104,"1,274",Russia,"1,965","3,239",Europe
+202104,0,Luxembourg,0,0,Europe
+202104,0,Belgium,0,0,Europe
+202104,0,Sweden,0,0,Europe
+202104,0,Swiss,0,0,Europe
+202104,0,Spain,0,0,Europe
+202104,0,Azerbaijan,0,0,Europe
+202104,0,Great Britain,788,788,Europe
+202104,0,Austria,0,0,Europe
+202104,"2,009",Uzbekistan,"1,499","3,508",Europe
+202104,0,Italy,0,0,Europe
+202104,"1,166",Kazakhstan,911,"2,077",Europe
+202104,"1,170",Turkey,"1,032","2,202",Europe
+202104,"1,002",Poland,848,"1,850",Europe
+202104,"1,003",France,770,"1,773",Europe
+202104,224,Finland,213,437,Europe
+202104,438,Hungary,534,972,Europe
+202104,"5,044",Japan,"4,156","9,200",Japan
+202104,"18,726",China,"15,180","33,906",China
+202104,0,Bahrain,0,0,Middle East
+202104,"4,357",Arab Emirates,"4,006","8,363",Middle East
+202104,0,Iraq,0,0,Middle East
+202104,0,Israel,0,0,Middle East
+202104,"2,324",Qatar,"2,062","4,386",Middle East

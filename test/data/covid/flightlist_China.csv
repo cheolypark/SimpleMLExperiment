@@ -1,0 +1,581 @@
+day,country_origin,country_destination,daily_count,cumulative_count
+2020-01-01,China,France,1,1
+2020-01-01,China,Germany,1,1
+2020-01-01,China,"Korea, Republic of",1,1
+2020-01-01,China,Malaysia,4,4
+2020-01-01,China,Singapore,4,4
+2020-01-01,China,Taiwan,2,2
+2020-01-01,China,Thailand,3,3
+2020-01-01,China,United Kingdom,1,1
+2020-01-01,China,United States of America,2,2
+2020-01-02,China,"Korea, Republic of",1,2
+2020-01-02,China,Malaysia,4,8
+2020-01-02,China,Philippines,1,1
+2020-01-02,China,Russian Federation,1,1
+2020-01-02,China,Singapore,3,7
+2020-01-02,China,Taiwan,1,3
+2020-01-02,China,Thailand,5,8
+2020-01-02,China,United Kingdom,1,2
+2020-01-02,China,United States of America,1,3
+2020-01-03,China,France,1,2
+2020-01-03,China,Japan,1,1
+2020-01-03,China,Malaysia,4,12
+2020-01-03,China,Singapore,4,11
+2020-01-03,China,Taiwan,1,4
+2020-01-03,China,Thailand,4,12
+2020-01-03,China,United Kingdom,1,3
+2020-01-04,China,Canada,1,1
+2020-01-04,China,Germany,1,2
+2020-01-04,China,"Korea, Republic of",1,3
+2020-01-04,China,Malaysia,4,16
+2020-01-04,China,Singapore,4,15
+2020-01-04,China,Thailand,4,16
+2020-01-04,China,United States of America,2,5
+2020-01-05,China,Belgium,1,1
+2020-01-05,China,Hong Kong,1,1
+2020-01-05,China,Japan,1,2
+2020-01-05,China,Malaysia,5,21
+2020-01-05,China,Singapore,2,17
+2020-01-05,China,Sri Lanka,1,1
+2020-01-05,China,Taiwan,1,5
+2020-01-05,China,Thailand,3,19
+2020-01-05,China,United Kingdom,1,4
+2020-01-05,China,United States of America,3,8
+2020-01-06,China,Canada,1,2
+2020-01-06,China,Czech Republic,1,1
+2020-01-06,China,France,2,4
+2020-01-06,China,Germany,1,3
+2020-01-06,China,Greece,1,1
+2020-01-06,China,Hong Kong,2,3
+2020-01-06,China,"Korea, Republic of",1,4
+2020-01-06,China,Malaysia,4,25
+2020-01-06,China,Poland,1,1
+2020-01-06,China,Russian Federation,1,2
+2020-01-06,China,Singapore,4,21
+2020-01-06,China,South Africa,1,1
+2020-01-06,China,Taiwan,1,6
+2020-01-06,China,Thailand,4,23
+2020-01-06,China,United Kingdom,1,5
+2020-01-06,China,United States of America,3,11
+2020-01-07,China,Canada,1,3
+2020-01-07,China,Czech Republic,1,2
+2020-01-07,China,"Korea, Republic of",2,6
+2020-01-07,China,Malaysia,4,29
+2020-01-07,China,Singapore,3,24
+2020-01-07,China,Thailand,5,28
+2020-01-07,China,United Kingdom,1,6
+2020-01-07,China,United States of America,3,14
+2020-01-08,China,Italy,1,1
+2020-01-08,China,"Korea, Republic of",1,7
+2020-01-08,China,Malaysia,4,33
+2020-01-08,China,Singapore,3,27
+2020-01-08,China,Taiwan,1,7
+2020-01-08,China,Thailand,3,31
+2020-01-08,China,United States of America,1,15
+2020-01-09,China,Italy,1,2
+2020-01-09,China,"Korea, Republic of",1,8
+2020-01-09,China,Malaysia,4,37
+2020-01-09,China,Russian Federation,1,3
+2020-01-09,China,Singapore,3,30
+2020-01-09,China,Taiwan,1,8
+2020-01-09,China,Thailand,4,35
+2020-01-09,China,United Kingdom,1,7
+2020-01-09,China,United States of America,3,18
+2020-01-10,China,Denmark,1,1
+2020-01-10,China,France,1,5
+2020-01-10,China,Germany,1,4
+2020-01-10,China,Malaysia,5,42
+2020-01-10,China,Singapore,3,33
+2020-01-10,China,South Africa,1,2
+2020-01-10,China,Taiwan,1,9
+2020-01-10,China,Thailand,4,39
+2020-01-10,China,United States of America,1,19
+2020-01-11,China,Canada,1,4
+2020-01-11,China,Czech Republic,1,3
+2020-01-11,China,Germany,2,6
+2020-01-11,China,Greece,1,2
+2020-01-11,China,Japan,1,3
+2020-01-11,China,"Korea, Republic of",1,9
+2020-01-11,China,Malaysia,4,46
+2020-01-11,China,Singapore,3,36
+2020-01-11,China,Thailand,6,45
+2020-01-11,China,United Kingdom,1,8
+2020-01-11,China,United States of America,2,21
+2020-01-12,China,Germany,2,8
+2020-01-12,China,Hong Kong,1,4
+2020-01-12,China,Japan,2,5
+2020-01-12,China,"Korea, Republic of",1,10
+2020-01-12,China,Malaysia,4,50
+2020-01-12,China,Singapore,1,37
+2020-01-12,China,Taiwan,2,11
+2020-01-12,China,Thailand,5,50
+2020-01-12,China,United States of America,2,23
+2020-01-13,China,France,1,6
+2020-01-13,China,Hong Kong,1,5
+2020-01-13,China,Japan,1,6
+2020-01-13,China,"Korea, Republic of",1,11
+2020-01-13,China,Malaysia,4,54
+2020-01-13,China,Russian Federation,1,4
+2020-01-13,China,Singapore,3,40
+2020-01-13,China,Taiwan,1,12
+2020-01-13,China,Thailand,3,53
+2020-01-13,China,United States of America,1,24
+2020-01-14,China,Canada,2,6
+2020-01-14,China,"Korea, Republic of",1,12
+2020-01-14,China,Malaysia,4,58
+2020-01-14,China,Singapore,3,43
+2020-01-14,China,Thailand,6,59
+2020-01-14,China,United Kingdom,1,9
+2020-01-14,China,United States of America,1,25
+2020-01-15,China,France,1,7
+2020-01-15,China,Germany,1,9
+2020-01-15,China,Greece,1,3
+2020-01-15,China,Israel,1,1
+2020-01-15,China,Italy,1,3
+2020-01-15,China,"Korea, Republic of",1,13
+2020-01-15,China,Malaysia,5,63
+2020-01-15,China,Philippines,1,2
+2020-01-15,China,Russian Federation,1,5
+2020-01-15,China,Singapore,3,46
+2020-01-15,China,Taiwan,1,13
+2020-01-15,China,Thailand,4,63
+2020-01-16,China,Belgium,1,2
+2020-01-16,China,Canada,3,9
+2020-01-16,China,France,1,8
+2020-01-16,China,"Korea, Republic of",1,14
+2020-01-16,China,Malaysia,4,67
+2020-01-16,China,New Zealand,1,1
+2020-01-16,China,Russian Federation,1,6
+2020-01-16,China,Singapore,3,49
+2020-01-16,China,Taiwan,1,14
+2020-01-16,China,Thailand,6,69
+2020-01-16,China,United Kingdom,1,10
+2020-01-17,China,France,1,9
+2020-01-17,China,Italy,1,4
+2020-01-17,China,"Korea, Republic of",1,15
+2020-01-17,China,Malaysia,4,71
+2020-01-17,China,Russian Federation,1,7
+2020-01-17,China,Singapore,3,52
+2020-01-17,China,South Africa,1,3
+2020-01-17,China,Taiwan,1,15
+2020-01-17,China,Thailand,4,73
+2020-01-17,China,United States of America,1,26
+2020-01-18,China,Belgium,1,3
+2020-01-18,China,Canada,1,10
+2020-01-18,China,Germany,1,10
+2020-01-18,China,Malaysia,3,74
+2020-01-18,China,Singapore,4,56
+2020-01-18,China,Thailand,4,77
+2020-01-18,China,United Kingdom,1,11
+2020-01-19,China,Canada,1,11
+2020-01-19,China,Germany,1,11
+2020-01-19,China,"Korea, Republic of",1,16
+2020-01-19,China,Malaysia,4,78
+2020-01-19,China,Singapore,2,58
+2020-01-19,China,Sweden,1,1
+2020-01-19,China,Taiwan,1,16
+2020-01-19,China,Thailand,6,83
+2020-01-19,China,United States of America,2,28
+2020-01-20,China,Italy,1,5
+2020-01-20,China,Japan,1,7
+2020-01-20,China,"Korea, Republic of",1,17
+2020-01-20,China,Macau,1,1
+2020-01-20,China,Malaysia,4,82
+2020-01-20,China,Russian Federation,1,8
+2020-01-20,China,Singapore,3,61
+2020-01-20,China,Taiwan,1,17
+2020-01-20,China,Thailand,4,87
+2020-01-20,China,United States of America,1,29
+2020-01-21,China,Canada,1,12
+2020-01-21,China,Germany,1,12
+2020-01-21,China,Japan,1,8
+2020-01-21,China,"Korea, Republic of",1,18
+2020-01-21,China,Malaysia,5,87
+2020-01-21,China,Singapore,3,64
+2020-01-21,China,Thailand,6,93
+2020-01-21,China,United Kingdom,1,12
+2020-01-21,China,United States of America,2,31
+2020-01-22,China,Malaysia,4,91
+2020-01-22,China,Singapore,3,67
+2020-01-22,China,Taiwan,2,19
+2020-01-22,China,Thailand,4,97
+2020-01-23,China,Canada,1,13
+2020-01-23,China,"Korea, Republic of",1,19
+2020-01-23,China,Malaysia,4,95
+2020-01-23,China,New Zealand,1,2
+2020-01-23,China,Russian Federation,1,9
+2020-01-23,China,Singapore,3,70
+2020-01-23,China,Taiwan,1,20
+2020-01-23,China,Thailand,5,102
+2020-01-23,China,United Kingdom,1,13
+2020-01-23,China,United States of America,1,32
+2020-01-24,China,Canada,1,14
+2020-01-24,China,France,1,10
+2020-01-24,China,Germany,1,13
+2020-01-24,China,Hong Kong,1,6
+2020-01-24,China,Malaysia,4,99
+2020-01-24,China,Singapore,4,74
+2020-01-24,China,South Africa,1,4
+2020-01-24,China,Taiwan,1,21
+2020-01-24,China,Thailand,4,106
+2020-01-25,China,Canada,1,15
+2020-01-25,China,France,1,11
+2020-01-25,China,Germany,1,14
+2020-01-25,China,Japan,2,10
+2020-01-25,China,"Korea, Republic of",1,20
+2020-01-25,China,Malaysia,3,102
+2020-01-25,China,Singapore,3,77
+2020-01-25,China,Thailand,5,111
+2020-01-25,China,United States of America,1,33
+2020-01-26,China,Japan,1,11
+2020-01-26,China,"Korea, Republic of",1,21
+2020-01-26,China,Malaysia,5,107
+2020-01-26,China,Singapore,2,79
+2020-01-26,China,Taiwan,1,22
+2020-01-26,China,Thailand,3,114
+2020-01-27,China,France,1,12
+2020-01-27,China,Germany,1,15
+2020-01-27,China,"Korea, Republic of",1,22
+2020-01-27,China,Malaysia,5,112
+2020-01-27,China,Poland,1,2
+2020-01-27,China,Russian Federation,1,10
+2020-01-27,China,Singapore,3,82
+2020-01-27,China,South Africa,1,5
+2020-01-27,China,Taiwan,1,23
+2020-01-27,China,Thailand,4,118
+2020-01-27,China,United States of America,2,35
+2020-01-28,China,Canada,1,16
+2020-01-28,China,Japan,1,12
+2020-01-28,China,"Korea, Republic of",1,23
+2020-01-28,China,Malaysia,4,116
+2020-01-28,China,Singapore,3,85
+2020-01-28,China,Thailand,6,124
+2020-01-28,China,United Kingdom,1,14
+2020-01-28,China,United States of America,2,37
+2020-01-29,China,Australia,1,1
+2020-01-29,China,France,1,13
+2020-01-29,China,Germany,1,16
+2020-01-29,China,Japan,1,13
+2020-01-29,China,Malaysia,3,119
+2020-01-29,China,Singapore,3,88
+2020-01-29,China,South Africa,1,6
+2020-01-29,China,Taiwan,1,24
+2020-01-29,China,Thailand,4,128
+2020-01-29,China,United States of America,1,38
+2020-01-30,China,Belgium,1,4
+2020-01-30,China,Italy,1,6
+2020-01-30,China,Japan,1,14
+2020-01-30,China,Malaysia,5,124
+2020-01-30,China,Russian Federation,1,11
+2020-01-30,China,Singapore,2,90
+2020-01-30,China,Sweden,1,2
+2020-01-30,China,Taiwan,1,25
+2020-01-30,China,Thailand,5,133
+2020-01-30,China,United Kingdom,1,15
+2020-01-30,China,United States of America,1,39
+2020-01-31,China,Japan,1,15
+2020-01-31,China,Malaysia,4,128
+2020-01-31,China,Singapore,2,92
+2020-01-31,China,Taiwan,1,26
+2020-01-31,China,Thailand,2,135
+2020-02-01,China,Canada,1,17
+2020-02-01,China,Germany,1,17
+2020-02-01,China,Japan,1,16
+2020-02-01,China,Malaysia,4,132
+2020-02-01,China,Singapore,3,95
+2020-02-01,China,Thailand,4,139
+2020-02-01,China,United Kingdom,1,16
+2020-02-02,China,Germany,1,18
+2020-02-02,China,Japan,1,17
+2020-02-02,China,Malaysia,4,136
+2020-02-02,China,Singapore,1,96
+2020-02-02,China,Taiwan,1,27
+2020-02-02,China,Thailand,2,141
+2020-02-02,China,United States of America,1,40
+2020-02-03,China,France,1,14
+2020-02-03,China,Germany,1,19
+2020-02-03,China,Malaysia,3,139
+2020-02-03,China,Netherlands,1,1
+2020-02-03,China,Singapore,3,99
+2020-02-03,China,Taiwan,1,28
+2020-02-03,China,Thailand,3,144
+2020-02-04,China,Canada,1,18
+2020-02-04,China,Germany,1,20
+2020-02-04,China,Malaysia,3,142
+2020-02-04,China,Thailand,4,148
+2020-02-04,China,United Kingdom,1,17
+2020-02-05,China,Germany,1,21
+2020-02-05,China,Malaysia,4,146
+2020-02-05,China,Singapore,2,101
+2020-02-05,China,Taiwan,1,29
+2020-02-05,China,Thailand,2,150
+2020-02-06,China,Hong Kong,1,7
+2020-02-06,China,Malaysia,3,149
+2020-02-06,China,Singapore,1,102
+2020-02-06,China,Sri Lanka,1,2
+2020-02-06,China,Taiwan,1,30
+2020-02-06,China,Thailand,3,153
+2020-02-07,China,France,1,15
+2020-02-07,China,Malaysia,2,151
+2020-02-07,China,South Africa,1,7
+2020-02-07,China,Taiwan,1,31
+2020-02-07,China,Thailand,1,154
+2020-02-08,China,Canada,1,19
+2020-02-08,China,Singapore,1,103
+2020-02-08,China,Thailand,2,156
+2020-02-09,China,Canada,1,20
+2020-02-09,China,Hong Kong,1,8
+2020-02-09,China,Malaysia,1,152
+2020-02-09,China,Singapore,1,104
+2020-02-09,China,Taiwan,1,32
+2020-02-09,China,Thailand,2,158
+2020-02-10,China,France,1,16
+2020-02-10,China,Singapore,1,105
+2020-02-10,China,South Africa,1,8
+2020-02-10,China,Thailand,1,159
+2020-02-11,China,Canada,1,21
+2020-02-11,China,Malaysia,1,153
+2020-02-11,China,Thailand,3,162
+2020-02-12,China,Japan,1,18
+2020-02-12,China,Thailand,1,163
+2020-02-13,China,Belgium,1,5
+2020-02-13,China,Malaysia,2,155
+2020-02-13,China,Thailand,3,166
+2020-02-14,China,France,1,17
+2020-02-14,China,Japan,2,20
+2020-02-14,China,Malaysia,1,156
+2020-02-14,China,South Africa,1,9
+2020-02-14,China,Thailand,1,167
+2020-02-15,China,Japan,1,21
+2020-02-15,China,Malaysia,1,157
+2020-02-15,China,Singapore,1,106
+2020-02-15,China,Thailand,1,168
+2020-02-16,China,Malaysia,1,158
+2020-02-16,China,Thailand,3,171
+2020-02-17,China,Hong Kong,1,9
+2020-02-17,China,South Africa,1,10
+2020-02-17,China,Thailand,2,173
+2020-02-18,China,Belgium,1,6
+2020-02-18,China,Hong Kong,1,10
+2020-02-18,China,Thailand,2,175
+2020-02-19,China,Netherlands,1,2
+2020-02-19,China,Thailand,2,177
+2020-02-20,China,Malaysia,1,159
+2020-02-20,China,Thailand,2,179
+2020-02-21,China,Japan,1,22
+2020-02-21,China,Malaysia,1,160
+2020-02-21,China,Thailand,2,181
+2020-02-22,China,Japan,1,23
+2020-02-22,China,"Korea, Republic of",1,24
+2020-02-22,China,Malaysia,1,161
+2020-02-22,China,Thailand,2,183
+2020-02-23,China,Malaysia,1,162
+2020-02-23,China,Thailand,4,187
+2020-02-24,China,France,1,18
+2020-02-24,China,Hong Kong,1,11
+2020-02-24,China,Malaysia,1,163
+2020-02-24,China,New Zealand,1,3
+2020-02-24,China,Sri Lanka,1,3
+2020-02-24,China,Thailand,1,188
+2020-02-25,China,Thailand,1,189
+2020-02-26,China,Thailand,1,190
+2020-02-27,China,Japan,1,24
+2020-02-27,China,Malaysia,1,164
+2020-02-27,China,Thailand,2,192
+2020-02-28,China,Netherlands,2,4
+2020-02-28,China,South Africa,1,11
+2020-02-28,China,Thailand,1,193
+2020-02-29,China,Japan,1,25
+2020-02-29,China,Malaysia,1,165
+2020-02-29,China,Thailand,1,194
+2020-02-29,China,United States of America,1,41
+2020-03-01,China,Germany,1,22
+2020-03-01,China,Japan,1,26
+2020-03-01,China,Macau,1,2
+2020-03-01,China,Malaysia,1,166
+2020-03-01,China,Thailand,3,197
+2020-03-01,China,United States of America,1,42
+2020-03-02,China,Hong Kong,1,12
+2020-03-02,China,Malaysia,1,167
+2020-03-02,China,South Africa,1,12
+2020-03-02,China,Thailand,2,199
+2020-03-02,China,United States of America,1,43
+2020-03-03,China,Japan,1,27
+2020-03-03,China,Thailand,2,201
+2020-03-03,China,United States of America,1,44
+2020-03-04,China,Japan,1,28
+2020-03-04,China,Thailand,2,203
+2020-03-04,China,United States of America,1,45
+2020-03-05,China,Japan,1,29
+2020-03-05,China,Netherlands,1,5
+2020-03-05,China,Thailand,2,205
+2020-03-05,China,United States of America,1,46
+2020-03-06,China,Japan,2,31
+2020-03-06,China,Malaysia,1,168
+2020-03-06,China,Philippines,1,3
+2020-03-06,China,South Africa,1,13
+2020-03-06,China,Thailand,4,209
+2020-03-06,China,United States of America,1,47
+2020-03-07,China,Japan,1,32
+2020-03-07,China,Netherlands,1,6
+2020-03-07,China,Thailand,2,211
+2020-03-08,China,Hong Kong,1,13
+2020-03-08,China,Malaysia,1,169
+2020-03-08,China,Thailand,3,214
+2020-03-08,China,United States of America,1,48
+2020-03-09,China,Japan,1,33
+2020-03-09,China,Malaysia,1,170
+2020-03-09,China,Thailand,2,216
+2020-03-09,China,United States of America,1,49
+2020-03-10,China,Japan,1,34
+2020-03-10,China,Thailand,2,218
+2020-03-10,China,United States of America,1,50
+2020-03-11,China,Japan,1,35
+2020-03-11,China,Thailand,1,219
+2020-03-11,China,United States of America,1,51
+2020-03-12,China,Bangladesh,1,1
+2020-03-12,China,Japan,1,36
+2020-03-12,China,Netherlands,1,7
+2020-03-12,China,South Africa,1,14
+2020-03-12,China,Thailand,1,220
+2020-03-12,China,United States of America,1,52
+2020-03-13,China,Japan,2,38
+2020-03-13,China,Malaysia,1,171
+2020-03-13,China,Thailand,1,221
+2020-03-13,China,United States of America,1,53
+2020-03-14,China,Germany,1,23
+2020-03-14,China,Japan,1,39
+2020-03-15,China,Malaysia,1,172
+2020-03-15,China,Thailand,2,223
+2020-03-15,China,United States of America,1,54
+2020-03-16,China,Hong Kong,1,14
+2020-03-16,China,Malaysia,1,173
+2020-03-16,China,South Africa,1,15
+2020-03-16,China,Thailand,2,225
+2020-03-16,China,United States of America,1,55
+2020-03-17,China,Hong Kong,1,15
+2020-03-17,China,Japan,1,40
+2020-03-17,China,Philippines,1,4
+2020-03-17,China,Thailand,1,226
+2020-03-17,China,United States of America,2,57
+2020-03-18,China,Japan,1,41
+2020-03-18,China,United States of America,1,58
+2020-03-19,China,Japan,1,42
+2020-03-19,China,United States of America,2,60
+2020-03-20,China,Japan,2,44
+2020-03-20,China,Malaysia,1,174
+2020-03-20,China,Singapore,1,107
+2020-03-20,China,South Africa,1,16
+2020-03-20,China,United States of America,1,61
+2020-03-21,China,Japan,1,45
+2020-03-21,China,Singapore,1,108
+2020-03-21,China,United States of America,1,62
+2020-03-22,China,Germany,1,24
+2020-03-22,China,Malaysia,1,175
+2020-03-22,China,United States of America,1,63
+2020-03-23,China,Malaysia,1,176
+2020-03-23,China,Singapore,1,109
+2020-03-23,China,Thailand,1,227
+2020-03-23,China,United States of America,1,64
+2020-03-24,China,Japan,1,46
+2020-03-24,China,United States of America,2,66
+2020-03-25,China,Japan,1,47
+2020-03-25,China,Singapore,1,110
+2020-03-25,China,United States of America,1,67
+2020-03-26,China,Japan,2,49
+2020-03-26,China,United States of America,2,69
+2020-03-27,China,Japan,2,51
+2020-03-27,China,Malaysia,1,177
+2020-03-27,China,United States of America,1,70
+2020-03-28,China,Japan,1,52
+2020-03-28,China,United States of America,1,71
+2020-03-29,China,Malaysia,1,178
+2020-03-29,China,Thailand,1,228
+2020-03-30,China,Hong Kong,1,16
+2020-03-30,China,United States of America,2,73
+2020-03-31,China,Japan,1,53
+2020-03-31,China,United States of America,1,74
+2020-04-01,China,Japan,1,54
+2020-04-01,China,Malaysia,1,179
+2020-04-01,China,United States of America,1,75
+2020-04-02,China,Japan,1,55
+2020-04-03,China,Japan,2,57
+2020-04-04,China,United States of America,1,76
+2020-04-05,China,Japan,1,58
+2020-04-07,China,Japan,1,59
+2020-04-08,China,Japan,1,60
+2020-04-09,China,Japan,1,61
+2020-04-09,China,Malaysia,1,180
+2020-04-10,China,Japan,2,63
+2020-04-10,China,"Korea, Republic of",1,25
+2020-04-10,China,New Zealand,1,4
+2020-04-10,China,Qatar,1,1
+2020-04-10,China,Singapore,1,111
+2020-04-12,China,Japan,1,64
+2020-04-13,China,"Korea, Republic of",1,26
+2020-04-14,China,Canada,1,22
+2020-04-14,China,Japan,2,66
+2020-04-14,China,Malaysia,1,181
+2020-04-14,China,Singapore,1,112
+2020-04-14,China,South Africa,1,17
+2020-04-14,China,United States of America,1,77
+2020-04-15,China,Japan,1,67
+2020-04-15,China,"Korea, Republic of",1,27
+2020-04-15,China,Malaysia,1,182
+2020-04-15,China,Qatar,1,2
+2020-04-15,China,Singapore,2,114
+2020-04-15,China,South Africa,1,18
+2020-04-15,China,United Arab Emirates,1,1
+2020-04-15,China,United Kingdom,1,18
+2020-04-15,China,United States of America,1,78
+2020-04-16,China,France,1,19
+2020-04-16,China,Germany,1,25
+2020-04-16,China,Japan,1,68
+2020-04-16,China,"Korea, Republic of",2,29
+2020-04-16,China,Malaysia,2,184
+2020-04-16,China,Thailand,1,229
+2020-04-17,China,Japan,2,70
+2020-04-17,China,Malaysia,2,186
+2020-04-17,China,Singapore,2,116
+2020-04-17,China,United States of America,1,79
+2020-04-18,China,Qatar,2,4
+2020-04-18,China,Russian Federation,1,12
+2020-04-18,China,Singapore,1,117
+2020-04-18,China,United States of America,1,80
+2020-04-19,China,Australia,1,2
+2020-04-19,China,France,1,20
+2020-04-19,China,Hong Kong,2,18
+2020-04-19,China,Japan,1,71
+2020-04-19,China,"Korea, Republic of",1,30
+2020-04-19,China,Malaysia,1,187
+2020-04-19,China,Thailand,1,230
+2020-04-20,China,"Korea, Republic of",1,31
+2020-04-20,China,Macau,1,3
+2020-04-21,China,Japan,1,72
+2020-04-21,China,"Korea, Republic of",1,32
+2020-04-21,China,Netherlands,1,8
+2020-04-22,China,Japan,1,73
+2020-04-22,China,"Korea, Republic of",1,33
+2020-04-23,China,Japan,1,74
+2020-04-23,China,"Korea, Republic of",1,34
+2020-04-24,China,Japan,3,77
+2020-04-24,China,Singapore,1,118
+2020-04-25,China,United States of America,1,81
+2020-04-26,China,Japan,1,78
+2020-04-26,China,"Korea, Republic of",1,35
+2020-04-26,China,Qatar,1,5
+2020-04-27,China,France,1,21
+2020-04-27,China,Philippines,1,5
+2020-04-28,China,Japan,1,79
+2020-04-29,China,France,1,22
+2020-04-29,China,Germany,1,26
+2020-04-29,China,Japan,1,80
+2020-04-29,China,"Korea, Republic of",1,36
+2020-04-29,China,Philippines,1,6
+2020-04-29,China,United Arab Emirates,1,2
+2020-04-29,China,United States of America,1,82
+2020-04-30,China,Australia,1,3
+2020-04-30,China,Germany,1,27
+2020-04-30,China,Japan,1,81
+2020-04-30,China,"Korea, Republic of",1,37
+2020-04-30,China,Malaysia,1,188
