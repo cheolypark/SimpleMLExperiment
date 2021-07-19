@@ -33,7 +33,7 @@ class Prediction(MLExperiment):
         self.cf['DL_TYPE'] = 'custom'
         # self.cf['Epochs'] = 1500
         self.cf['Epochs'] = 100
-        self.cf['Batch_Size'] = 256*4
+        self.cf['Batch_Size'] = 256
         self.cf['Look_Back_For_Model'] = 4
         self.cf['Learning_Rate'] = 1e-5
         self.cf['Save_Dir'] = 'saved_models'
