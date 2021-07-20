@@ -32,14 +32,15 @@ class Prediction(MLExperiment):
         #========================================================
         self.cf['DL_TYPE'] = 'custom'
         self.cf['Epochs'] = 1500
-        # self.cf['Epochs'] = 100
         self.cf['Batch_Size'] = 256
         self.cf['Look_Back_For_Model'] = 4
         self.cf['Learning_Rate'] = 1e-5
+        self.cf['Neurons'] = 64 * 1
+        self.cf['Optimizer'] = Nadam(lr=self.cf['Learning_Rate'])
         self.cf['Save_Dir'] = 'saved_models'
         # self.cf['Optimizer'] = 'adam'
-        self.cf['Optimizer'] = Nadam(lr=self.cf['Learning_Rate'])
-        self.cf['Neurons'] = 64 * 1
+
+
         self.cf['Layers'] = []
 
         #========================================================
@@ -47,8 +48,8 @@ class Prediction(MLExperiment):
         #========================================================
         # self.init_ml_algorithms(['LR'])
         # self.init_ml_algorithms(['DLR'])
-        self.init_ml_algorithms(['TRS'])
-        # self.init_ml_algorithms(['LSTM'])
+        # self.init_ml_algorithms(['TRS'])
+        self.init_ml_algorithms(['LSTM'])
         # self.init_ml_algorithms(['RFR'])
         # self.init_ml_algorithms(['LR', 'DTR'])
         # self.init_ml_algorithms(['LR', 'GPR', 'MLP', 'SVR', 'RFR', 'GBR'])
