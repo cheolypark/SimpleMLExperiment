@@ -40,7 +40,6 @@ class Prediction(MLExperiment):
         self.cf['Save_Dir'] = 'saved_models'
         # self.cf['Optimizer'] = 'adam'
 
-
         self.cf['Layers'] = []
 
         #========================================================

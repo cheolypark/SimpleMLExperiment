@@ -26,8 +26,12 @@ class LSTMRegressor():
         # Do activation='tanh' require for scaling -1 to 1?
         # Please, test this
 
+        neurons = self.cf['Neurons']
+        if 'neurons' in self.hyper:
+            neurons = self.hyper['neurons']
+
         self.model = Sequential()
-        self.model.add(LSTM(self.hyper['neurons'], input_shape=(x_train.shape[1], x_train.shape[2]), stateful=False))
+        self.model.add(LSTM(neurons, input_shape=(x_train.shape[1], x_train.shape[2]), stateful=False))
         self.model.add(Dense(1))
         self.model.compile(loss=self.cf['Metrics'], optimizer=self.cf['Optimizer'])
         return self.model
