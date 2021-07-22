@@ -25,7 +25,7 @@ class MachineLearning(Config):
         self.cf['Verbose'] = 1
         # self.cf['Verbose'] = 0
         self.cf['Metrics'] = 'mean_absolute_error'
-        self.cf['Learned_Model_Path'] = '../../data/covid/learned_model/'
+        self.cf['Learned_Model_Path'] = '../../test/data/covid/learned_model/'
 
         #========================================================
         # Set Deep learning config
