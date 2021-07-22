@@ -24,6 +24,7 @@ import datetime
 import pickle
 import os
 from sklearn.gaussian_process.kernels import RBF
+from src.util.dataframe import get_os_path
 
 
 class ManagerMLAlgorithms(ManagerDataset):
@@ -174,7 +175,7 @@ class ManagerMLAlgorithms(ManagerDataset):
             # Save the learned model
             if self.cf['Learned_Model_Path'] is not None:
                 # In the multiple experiment case, a last one will overwrite previous file.
-                with open(f"{self.cf['Learned_Model_Path']}{name}.pkl", 'wb') as fid:
+                with open(get_os_path(f"{self.cf['Learned_Model_Path']}{name}.pkl"), 'wb') as fid:
                     pickle.dump(alg, fid)
 
         return results

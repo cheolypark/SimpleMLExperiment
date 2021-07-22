@@ -47,6 +47,8 @@ class Prediction(Config):
 
             # Get data
             test_X = self.X_test
+            test_X = test_X.reset_index().drop(columns=['index'])
+
             if name == 'LSTMRegressor':
                 test_X = self.X_win_test
 
@@ -129,7 +131,7 @@ class Prediction(Config):
         index = 1
         for test_province in self.all_province:
             MAEs = {}
-            self.run_experiment_for_a_region(MAEs, test_province)
+            self.run_experiment_for_a_region(MAEs, start_date=26, period=14, test_province=test_province)
             province_MAEs[test_province] = MAEs
 
             print('====================================================================>', index, '/', len(self.all_province))
@@ -155,8 +157,8 @@ class Prediction(Config):
 if __name__ == '__main__':
     experiment = Prediction()
     # - Test 17 regions
-    # experiment.run()
+    experiment.run()
 
     # - Test only one region
-    MAEs = {}
-    experiment.run_experiment_for_a_region(MAEs, test_province='Busan')
+    # MAEs = {}
+    # experiment.run_experiment_for_a_region(MAEs, test_province='Busan')
