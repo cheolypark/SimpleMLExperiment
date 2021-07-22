@@ -2,7 +2,7 @@ from test.covid19_data_sets import look_back_for_data, cases_17_region
 from src.lib.manager_optimization import ManagerOptimization
 
 
-class MLExperiment(ManagerOptimization):
+class Config(ManagerOptimization):
     def __init__(self):
         super().__init__()
 

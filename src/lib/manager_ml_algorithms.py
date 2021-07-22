@@ -137,8 +137,8 @@ class ManagerMLAlgorithms(ManagerDataset):
 
         # iterate over classifiers
         results = {}
-        for clf in self.algorithms:
-            name = type(clf).__name__
+        for alg in self.algorithms:
+            name = type(alg).__name__
             info = ''
             train_X = self.X_train
             train_y = self.y_train
@@ -147,28 +147,35 @@ class ManagerMLAlgorithms(ManagerDataset):
 
             # Training MLs
             if name == 'DeepLearningRegressor':
-                clf.fit(train_X, train_y, test_X, test_y)
+                alg.fit(train_X, train_y, test_X, test_y)
             elif name == 'LSTMRegressor':
                 train_X = self.X_win_train
                 train_y = self.y_win_train
                 test_X = self.X_win_test
                 test_y = self.y_win_test
-                clf.fit(train_X, train_y, test_X, test_y)
+                alg.fit(train_X, train_y, test_X, test_y)
             else:
-                clf.fit(train_X, train_y)
+                alg.fit(train_X, train_y)
 
-            # clf.fit(self.X_train, self.y_train)
-            # score = clf.score(self.X_test, self.y_test)
+            # alg.fit(self.X_train, self.y_train)
+            # score = alg.score(self.X_test, self.y_test)
 
-            predicted = clf.predict(test_X)
+            predicted = alg.predict(test_X)
             mae = mean_absolute_error(test_y, predicted)
 
             print(f'{name} Score\t', mae)
             results[name] = mae
 
+            # Save the prediction results
             if file_save is not None:
                 df = pd.DataFrame({'Actual': test_y, 'Predicted': predicted.ravel()})
                 df.to_csv(f'{file_save}_{name}_{datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")}.csv')
+
+            # Save the learned model
+            if self.cf['Learned_Model_Path'] is not None:
+                # In the multiple experiment case, a last one will overwrite previous file.
+                with open(f"{self.cf['Learned_Model_Path']}{name}.pkl", 'wb') as fid:
+                    pickle.dump(alg, fid)
 
         return results
 

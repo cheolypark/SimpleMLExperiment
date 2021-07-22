@@ -1,85 +1,54 @@
 import sys
 import os
+import pprint
+from test.covid19_data_sets import look_back_for_data, cases_17_region
 
 file_path = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0,os.path.join(file_path, "..", "..", ".."))
 sys.path.insert(0,os.path.join(file_path, "..", ".."))
 sys.path.insert(0,os.path.join(file_path, ".."))
 
-print(sys.path)
+pp = pprint.PrettyPrinter(indent=1)
+pp.pprint(sys.path)
 
 import numpy as np
+import pandas as pd
+import time
 from datetime import datetime
 from sklearn.metrics import mean_absolute_error
-from src.util.dataframe import load_file, save_file
-from tensorflow.keras.optimizers import Nadam
-from test.regression.covid19_experiment import MLExperiment
+from src.util.dataframe import save_file
+from test.regression.covid.config import Config
 
 
-class Prediction(MLExperiment):
+class Prediction(Config):
     def __init__(self):
         super().__init__()
-        #========================================================
-        # Set experiment configs
-        #========================================================
-        self.cf['Save_Results'] = False
-        self.cf['Experiment_Times'] = 2
-        self.cf['Verbose'] = 1
-        # self.cf['Verbose'] = 0
-        self.cf['Metrics'] = 'mean_absolute_error'
+        self.cf['Learned_Model_Path'] = '../../data/covid/learned_model/'
+        self.cf['Save_Results'] = True
 
-        #========================================================
-        # Set Deep learning config
-        #========================================================
-        self.cf['DL_TYPE'] = 'custom'
-        self.cf['Epochs'] = 1500
-        self.cf['Batch_Size'] = 256
-        self.cf['Look_Back_For_Model'] = 4
-        self.cf['Learning_Rate'] = 1e-5
-        self.cf['Neurons'] = 64 * 1
-        self.cf['Optimizer'] = Nadam(lr=self.cf['Learning_Rate'])
-        self.cf['Save_Dir'] = 'saved_models'
-        # self.cf['Optimizer'] = 'adam'
-
-        self.cf['Layers'] = []
-
-        #========================================================
-        # Set parameter optimizer configs
-        #========================================================
-        # self.init_ml_algorithms(['LR'])
-        # self.init_ml_algorithms(['DLR'])
-        # self.init_ml_algorithms(['TRS'])
-        self.init_ml_algorithms(['LSTM'])
-        # self.init_ml_algorithms(['RFR'])
-        # self.init_ml_algorithms(['LR', 'DTR'])
-        # self.init_ml_algorithms(['LR', 'GPR', 'MLP', 'SVR', 'RFR', 'GBR'])
-        # self.init_ml_algorithms(['RFR', 'GBR'])
-
-        #========================================================
-        # Set parameter optimizer configs
-        #========================================================
-        # self.set_pbounds({'n_estimators': (10, 2000)})
-        # self.set_pbounds({'neurons': (20, 5000)})
+        # 1 Load ML models
+        super().load_models(self.cf['Learned_Model_Path'])
 
     def run_experiment_for_a_region(self, MAEs, test_province='Busan'):
-        # 1 Build models
-        super().build_models(test_province)
+        # 1 Select data
+        super().select_data_in_row_selection_mode(test_province)
 
         # 2 Prepare the experiment dataset
-        df = self.df.where(self.df['province'].isin(self.test_columns['province'])).dropna(subset=['province'])
+        df = cases_17_region.where(cases_17_region['province'].isin(self.test_columns['province'])).dropna(subset=['province'])
         df = df.reset_index().drop(columns=['index'])
         df['predicted_confirmed'] = None
 
         # 3 Perform the confirmed case prediction experiment
         output_columns = []
-        for ml in self.ml.regressors:
+        for ml in self.algorithms:
             name = type(ml).__name__
             predicted_confirmed = f'predicted_confirmed_{name}'
             output_columns.append(predicted_confirmed)
 
             # Get data
-            test_X = self.ml.X_test
+            test_X = self.X_test
             if name == 'LSTMRegressor':
-                test_X = self.ml.X_win_test
+                test_X = self.X_win_test
 
                 #***************************************************************************************************
                 # Warning: For the LSTM test, the below code removing the first a few data is applied.
@@ -109,16 +78,48 @@ class Prediction(MLExperiment):
 
         print(f'{output_columns}: Prediction was finished!')
 
-        if self.save_result:
+        if self.cf['Save_Results'] is True:
              # 9 Save the predicted results
             csv_name = datetime.now().strftime('ml[' + test_province + "]_%m_%d_%Y-%H_%M_%S")
             result_excel = df[['date', 'province', 'confirmed'] + output_columns]
-            save_file(result_excel, f'../../data/output_prediction/{csv_name}.csv', index=False)
+            save_file(result_excel, f'../../test/data/covid/output_prediction/{csv_name}.csv', index=False)
 
     def run(self):
-        self.run_ml_multiple_times()
+        # 1 Perform predictions
+        province_MAEs = {}
+        ts = time.time()
+
+        index = 1
+        for test_province in self.all_province:
+            MAEs = {}
+            self.run_experiment_for_a_region(MAEs, test_province)
+            province_MAEs[test_province] = MAEs
+
+            print('====================================================================>', index, '/', len(self.all_province))
+            index += 1
+
+        # 2 Make Average MAEs
+        df_maes = pd.DataFrame(province_MAEs)
+        df_maes['Average MAEs'] = df_maes.mean(axis=1)
+
+        # 3 Save MAEs
+        if self.cf['Save_Results'] is True:
+            csv_name = datetime.now().strftime('MAEs' + "_%m_%d_%Y-%H_%M_%S")
+            save_file(df_maes, f'../../test/data/covid/output_prediction/{csv_name}.csv', index=False)
+
+        print('<=== Average MAEs ===========================>')
+        print(df_maes['Average MAEs'])
+        print("== Mahcine learning end: Time {} mins ".format((time.time()-ts)/60))
+        print('<============================================>')
+
+        return df_maes['Average MAEs']
 
 
-experiment = Prediction()
-experiment.run()
+if __name__ == '__main__':
+    experiment = Prediction()
+    # - Test 17 regions
+    experiment.run()
 
+    # - Test only one region
+    # MAEs = {}
+    # experiment.run_experiment_for_a_region(MAEs, test_province='Busan')
