@@ -81,12 +81,14 @@ class ManagerMLAlgorithms(ManagerDataset):
 
     def load_models(self, path):
         files = os.listdir(path)
-
+        print("Found files: ", files)
         for f in files:
-            print(f)
+            print("Use a file: ", f)
+
             if f.endswith('.pkl'):
                 # load it ML alg
-                with open(path + f, 'rb') as fid:
+                # with open(path + f, 'rb') as fid:
+                with open(os.path.join(path, f), 'rb') as fid:
                     ml = pickle.load(fid)
                     self.algorithms.append(ml)
 
