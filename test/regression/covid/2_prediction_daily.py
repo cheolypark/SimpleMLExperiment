@@ -22,7 +22,7 @@ from test.covid19_data_sets import look_back_for_data, cases_17_region
 class Prediction(Config):
     def __init__(self):
         super().__init__()
-        self.cf['Learned_Model_Path'] = '../../data/covid/learned_model/'
+        self.cf['Learned_Model_Path'] = '../../test/data/covid/learned_model/'
         self.cf['Save_Results'] = True
 
         # 1 Load ML models
