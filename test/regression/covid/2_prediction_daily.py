@@ -17,12 +17,14 @@ from datetime import datetime
 from sklearn.metrics import mean_absolute_error
 from src.util.dataframe import save_file
 from test.regression.covid.config import Config
-from test.covid19_data_sets import look_back_for_data, cases_17_region
+from test.covid19_data_sets import cases_17_region
+from src.util.dataframe import get_os_path
+
 
 class Prediction(Config):
     def __init__(self):
         super().__init__()
-        self.cf['Learned_Model_Path'] = '../../test/data/covid/learned_model/'
+        self.cf['Learned_Model_Path'] = get_os_path('../../test/data/covid/learned_model/')
         self.cf['Save_Results'] = True
 
         # 1 Load ML models
