@@ -47,8 +47,8 @@ class MachineLearning(Config):
         #========================================================
         # self.init_ml_algorithms(['LR'])
         # self.init_ml_algorithms(['DLR'])
-        # self.init_ml_algorithms(['TRS'])
-        self.init_ml_algorithms(['LSTM'])
+        self.init_ml_algorithms(['TRS'])
+        # self.init_ml_algorithms(['LSTM'])
         # self.init_ml_algorithms(['RFR'])
         # self.init_ml_algorithms(['LR', 'DTR'])
         # self.init_ml_algorithms(['LR', 'GPR', 'MLP', 'SVR', 'RFR', 'GBR'])

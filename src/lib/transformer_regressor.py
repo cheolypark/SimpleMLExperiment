@@ -45,15 +45,15 @@ class TransformerBlock(layers.Layer):
         )
         self.layernorm1 = LayerNormalization(epsilon=1e-6)
         self.layernorm2 = LayerNormalization(epsilon=1e-6)
-        self.dropout1 = Dropout(rate)
-        self.dropout2 = Dropout(rate)
+        # self.dropout1 = Dropout(rate)
+        # self.dropout2 = Dropout(rate)
 
     def call(self, inputs, training):
         attn_output = self.att(inputs, inputs)
-        attn_output = self.dropout1(attn_output, training=training)
+        # attn_output = self.dropout1(attn_output, training=training)
         out1 = self.layernorm1(inputs + attn_output)
         ffn_output = self.ffn(out1)
-        ffn_output = self.dropout2(ffn_output, training=training)
+        # ffn_output = self.dropout2(ffn_output, training=training)
         return self.layernorm2(out1 + ffn_output)
 
 
@@ -64,12 +64,15 @@ class TransformerRegressor():
 
     def make_custom_model(self, x_train):
         # Only consider the top 20k words
-        vocab_size = 20000
+        # vocab_size = 20000
+        vocab_size = 1000
+        # vocab_size = x_train.shape[1] # 4
 
         # Only consider the first 200 words of each movie review
         # e.g.,) I like this movie
         #        1 2    8    9
-        maxlen = x_train.shape[1]
+        maxlen = x_train.shape[1] # 4
+        # maxlen = x_train.shape[2] # 17
 
         # Embedding size for each token
         embed_dim = 32
@@ -90,9 +93,9 @@ class TransformerRegressor():
 
         x = transformer_block(x)
         x = GlobalAveragePooling1D()(x)
-        x = Dropout(0.1)(x)
+        # x = Dropout(0.1)(x)
         x = Dense(20, activation="relu")(x)
-        x = Dropout(0.1)(x)
+        # x = Dropout(0.1)(x)
         outputs = Dense(1)(x)
 
         self.model = Model(inputs=inputs, outputs=outputs)

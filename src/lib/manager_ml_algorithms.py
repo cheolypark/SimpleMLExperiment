@@ -49,7 +49,7 @@ class ManagerMLAlgorithms(ManagerDataset):
 
         for alg in ml_algs:
             if alg == 'TRS':
-                self.cf['Time_Window_Mode'] = True
+                # self.cf['Time_Window_Mode'] = True
                 self.algorithms.append(TransformerRegressor(self.cf, hyper))
             elif alg == 'LSTM':
                 self.cf['Time_Window_Mode'] = True
@@ -140,20 +140,20 @@ class ManagerMLAlgorithms(ManagerDataset):
         results = {}
         for alg in self.algorithms:
             name = type(alg).__name__
-            info = ''
+            is_time_window_mode = alg.cf['Time_Window_Mode']
             train_X = self.X_train
             train_y = self.y_train
             test_X = self.X_test
             test_y = self.y_test
 
             # Training MLs
-            if name == 'DeepLearningRegressor':
-                alg.fit(train_X, train_y, test_X, test_y)
-            elif name == 'LSTMRegressor':
+            if is_time_window_mode is True:
                 train_X = self.X_win_train
                 train_y = self.y_win_train
                 test_X = self.X_win_test
                 test_y = self.y_win_test
+
+            if name == 'DeepLearningRegressor' or name == 'LSTMRegressor':
                 alg.fit(train_X, train_y, test_X, test_y)
             else:
                 alg.fit(train_X, train_y)
