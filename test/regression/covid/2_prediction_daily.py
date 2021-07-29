@@ -1,7 +1,6 @@
 import sys
 import os
 import pprint
-from test.covid19_data_sets import look_back_for_data, cases_17_region
 
 file_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,os.path.join(file_path, "..", "..", ".."))
@@ -18,7 +17,7 @@ from datetime import datetime
 from sklearn.metrics import mean_absolute_error
 from src.util.dataframe import save_file
 from test.regression.covid.config import Config
-
+from test.covid19_data_sets import look_back_for_data, cases_17_region
 
 class Prediction(Config):
     def __init__(self):
