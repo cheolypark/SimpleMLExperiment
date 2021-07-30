@@ -147,7 +147,6 @@ class ManagerMLAlgorithms(ManagerDataset):
         results = {}
         for alg in self.algorithms:
             name = type(alg).__name__
-            is_time_window_mode = alg.cf['Time_Window_Mode']
             train_X = self.X_train
             train_y = self.y_train
             test_X = self.X_test
