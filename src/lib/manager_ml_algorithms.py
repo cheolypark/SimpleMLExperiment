@@ -13,7 +13,7 @@ from sklearn.svm import SVR
 from src.lib.deep_learning_regressor import DeepLearningRegressor
 from src.lib.lstm_regressor import LSTMRegressor
 from src.lib.transformer_regressor import TransformerRegressor
-
+from tensorflow import keras
 # from gpflow_regressor import GPFLOWRegressor
 from src.lib.manager_dataset import ManagerDataset
 from src.lib.lightgbm_sklearn import LightGBM
@@ -50,11 +50,14 @@ class ManagerMLAlgorithms(ManagerDataset):
         for alg in ml_algs:
             if alg == 'TRS':
                 # self.cf['Time_Window_Mode'] = True
+                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(TransformerRegressor(self.cf, hyper))
             elif alg == 'LSTM':
                 self.cf['Time_Window_Mode'] = True
+                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(LSTMRegressor(self.cf, hyper))
             elif alg == 'DLR':
+                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(DeepLearningRegressor(self.cf, hyper))
             elif alg == 'LGB':
                 self.algorithms.append(LightGBM())
@@ -85,9 +88,16 @@ class ManagerMLAlgorithms(ManagerDataset):
         for f in files:
             print("Use a file: ", f)
 
-            if f.endswith('.pkl'):
-                # load it ML alg
-                # with open(path + f, 'rb') as fid:
+            if self.is_keras_model(f):
+                if 'LSTMRegressor' in f:
+                    model_class = LSTMRegressor(self.cf)
+                elif 'TransformerRegressor' in f:
+                    model_class = TransformerRegressor(self.cf)
+                elif 'DeepLearningRegressor' in f:
+                    model_class = DeepLearningRegressor(self.cf)
+
+                model_class.model = keras.models.load_model(os.path.join(path, f))
+            else:
                 with open(os.path.join(path, f), 'rb') as fid:
                     ml = pickle.load(fid)
                     self.algorithms.append(ml)
@@ -176,9 +186,12 @@ class ManagerMLAlgorithms(ManagerDataset):
 
             # Save the learned model
             if self.cf['Learned_Model_Path'] is not None:
-                # In the multiple experiment case, a last one will overwrite previous file.
-                with open(get_os_path(f"{self.cf['Learned_Model_Path']}{name}.pkl"), 'wb') as fid:
-                    pickle.dump(alg, fid)
+                if self.cf['Is_Keras_Model'] is True:
+                    alg.model.save(get_os_path(f"{self.cf['Learned_Model_Path']}{name}"))
+                else:
+                    # In the multiple experiment case, a last one will overwrite previous file.
+                    with open(get_os_path(f"{self.cf['Learned_Model_Path']}{name}.pkl"), 'wb') as fid:
+                        pickle.dump(alg, fid)
 
         return results
 
@@ -207,3 +220,9 @@ class ManagerMLAlgorithms(ManagerDataset):
             return 'RFR'
         elif name == 'LightGBM':
             return 'LGB'
+
+    def is_keras_model(self, name):
+        if 'LSTMRegressor' in name or 'TransformerRegressor' in name or 'DeepLearningRegressor' in name:
+            return True
+
+        return False

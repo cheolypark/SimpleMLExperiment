@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Dense
 
 
 class DeepLearningRegressor():
-    def __init__(self, cf, hyper):
+    def __init__(self, cf, hyper=None):
         self.cf = cf
         self.hyper = hyper
 
