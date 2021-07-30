@@ -17,7 +17,7 @@ class ManagerDataset():
         self.cf = {}
         # If Time_Window_Mode is true, data in X columns is converted to new data containing time windows
         # This is for kinds of RNN which can encode data in time windows
-        self.cf['Time_Window_Mode'] = False
+
         self.X_train, self.X_test, self.y_train, self.y_test = None, None, None, None
 
     def convert_X_data_with_window(self, dataset_X):
@@ -111,11 +111,10 @@ class ManagerDataset():
 
         # Create a look-back data for a kind of RNN architecture
         # make data sets with time windows applied
-        if self.cf['Time_Window_Mode'] is True:
-            self.X_win_train = self.convert_X_data_with_window(self.X_train)
-            self.X_win_test = self.convert_X_data_with_window(self.X_test)
-            self.y_win_train = self.convert_y_data_with_window(self.y_train)
-            self.y_win_test = self.convert_y_data_with_window(self.y_test)
+        self.X_win_train = self.convert_X_data_with_window(self.X_train)
+        self.X_win_test = self.convert_X_data_with_window(self.X_test)
+        self.y_win_train = self.convert_y_data_with_window(self.y_train)
+        self.y_win_test = self.convert_y_data_with_window(self.y_test)
 
         self.train_size = len(self.df_train)
         self.test_size = len(self.df_test)

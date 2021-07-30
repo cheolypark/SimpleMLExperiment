@@ -49,15 +49,10 @@ class ManagerMLAlgorithms(ManagerDataset):
 
         for alg in ml_algs:
             if alg == 'TRS':
-                # self.cf['Time_Window_Mode'] = True
-                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(TransformerRegressor(self.cf, hyper))
             elif alg == 'LSTM':
-                self.cf['Time_Window_Mode'] = True
-                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(LSTMRegressor(self.cf, hyper))
             elif alg == 'DLR':
-                self.cf['Is_Keras_Model'] = True
                 self.algorithms.append(DeepLearningRegressor(self.cf, hyper))
             elif alg == 'LGB':
                 self.algorithms.append(LightGBM())
@@ -159,13 +154,13 @@ class ManagerMLAlgorithms(ManagerDataset):
             test_y = self.y_test
 
             # Training MLs
-            if is_time_window_mode is True:
+            if name == 'LSTMRegressor':
                 train_X = self.X_win_train
                 train_y = self.y_win_train
                 test_X = self.X_win_test
                 test_y = self.y_win_test
 
-            if name == 'DeepLearningRegressor' or name == 'LSTMRegressor':
+            if self.is_keras_model(name):
                 alg.fit(train_X, train_y, test_X, test_y)
             else:
                 alg.fit(train_X, train_y)
@@ -186,7 +181,7 @@ class ManagerMLAlgorithms(ManagerDataset):
 
             # Save the learned model
             if self.cf['Learned_Model_Path'] is not None:
-                if self.cf['Is_Keras_Model'] is True:
+                if self.is_keras_model(name):
                     alg.model.save(get_os_path(f"{self.cf['Learned_Model_Path']}{name}"))
                 else:
                     # In the multiple experiment case, a last one will overwrite previous file.
