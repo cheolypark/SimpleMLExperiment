@@ -14,6 +14,7 @@ class Config(ManagerOptimization):
         self.cf['Condition_Columns'] = ['province']
         self.cf['Look_Back_For_Data'] = look_back_for_data
 
+
         #========================================================
         # Update the dataset
         #========================================================

@@ -26,6 +26,7 @@ class Prediction(Config):
         super().__init__()
         self.cf['Learned_Model_Path'] = get_os_path('../../test/data/covid/learned_model/')
         self.cf['Save_Results'] = True
+        self.cf['Look_Back_For_Model'] = 4
 
         # 1 Load ML models
         super().load_models(self.cf['Learned_Model_Path'])
